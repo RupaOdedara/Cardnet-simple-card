@@ -2,19 +2,20 @@
   margin: 0;
   padding: 0;
   font-family: 'Noto Sans', sans-serif;
-  overflow: hidden;
-  
+
 }
-.main{
+
+body{
   background-color: #eeeeee;
- 
 }
+
+
 .container{
   max-width: 540px;
   margin: 0 auto;
   background-color: burlywood;
   position: relative;
- 
+ overflow: hidden;
 }
 .top{
   background:#1c2534;
@@ -27,12 +28,13 @@
   padding: 70px 0;
   font-size: 30px;
 }
+
 .bottom{
-  padding: 100px 0 0 0;
+  padding: 127px 0 100px 0;
   background: #ffffff;
   color: #242e37;
   text-align: center;
-  height: 385px;
+ 
 }
 .bottom h1{
   font-size: 18px;
@@ -67,33 +69,70 @@
   padding: 10px;
 }
 
+
 .clip{
-  width: 200px;
-  background-color: red;
-  height: 70px;
-  top:200px;
+  width: 300px;
+  background-color: #e91d36;
+  height: 50px;
   position: absolute;
-  /* clip-path: url('#); */
+  left: -9px;
+  top: 207px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 25px;
+  transform: rotate(-9deg); 
+
+}
+
+.clip::after{
+  content: "";
+  width: 125px;
+  top: 47px;
+  position: absolute;
+  background: #85181b;
+  left: 173px;
+  opacity: 0.9;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 10px;
+  z-index: 100;
+  transform: rotate(-2deg);
+  background-repeat: repeat;
+  height: 15px;
+}
+
+
+.clip2{
+  background-color: #e91d36;
+  height: 50px;
+  position: absolute;
+  top: 231px;
+  left: 172px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 30px;
+  transform: rotate(-10deg);
+  border-bottom-left-radius: 10px;
+
 }
 
 .left-side-clip{
   width: 20px;
   height: 150px;
-  background-color: red;
+  background-color: #e91d36;
   position: absolute;
   border-radius: 10px;
-  bottom: 217px;
+  bottom: 170px;
   left: -9px;
+ 
   
 }
 
 .right-side-clip{
   width: 20px;
   height: 150px;
-  background-color: red;
+  background-color: #e91d36;
   position: absolute;
   border-radius: 10px;
-  bottom: 217px;
+  bottom: 170px;
   right: -9px;
   
 }
