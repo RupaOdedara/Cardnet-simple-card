@@ -11,14 +11,14 @@
   margin: 0 auto;
   position: relative;
   overflow: hidden;
-  height: 100vh;
+  
  
 }
 
 .top
 {
-    height: 190px;
-    padding: 30px;
+    height: 317px;
+    padding: 80px 30px 30px 30px;
     background: white;
 }
 .top p{
@@ -47,11 +47,11 @@
 
 .sidebar{
   position: absolute;
-  width: 130px;
-  height: 390px;
-  bottom: -33px;
-  left: 0;
-  background: #e8e8e8;;
+    width: 130px;
+    height: 466px;
+    left: 0;
+    bottom: 0;
+    background: #e8e8e8;
 }
 
 .sidebottom{
@@ -76,7 +76,7 @@
 
 .top-left-line{
   width: 20px;
-  height: 101px;
+  height: 203px;
   position: absolute;
   top: 391px;
   background: #d82a45;
@@ -97,7 +97,7 @@
   padding: 50px 0 0 0;
   background: #ffffff;
   color: #242e37;
-  height: 385px;
+  height: 317px;
 
 }
 .bottom h1{
