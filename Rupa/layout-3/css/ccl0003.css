@@ -25,15 +25,15 @@ padding: 100px 50px;
 }
 
 .top h1{
-  color: #26323a;
+  color: #132028;
   font-weight: bold;
   margin-bottom: 3px;
   
 }
 .top span{
   letter-spacing: 3px;
-  color: #26323a;
-  font-weight: 100;
+  color: #9b9c9e;
+  font-weight: lighter;;
 }
 
 .top hr{
