@@ -1,12 +1,26 @@
+@font-face{
+  font-family: custumfont;
+  src: url(/fonts/doctor\ garcia.ttf);
+}
+
+@font-face{
+  font-family: powderfont;
+  src: url(/fonts/powdah.otf);
+}
+
+
+
 *{
   margin: 0;
   padding: 0;
-  font-family: 'Noto Sans', sans-serif;
+  text-align: center;
+  
 
 }
 
 body{
   background-color: #eeeeee;
+  
 }
 
 
@@ -22,12 +36,28 @@ body{
   color: #e7e9ec;
   font-weight:300;
   text-align: center;
+ 
+}
+.logo{
+  padding: 50px 0;
 }
 .top p{
-  padding: 70px 0;
-  font-size: 30px;
+  font-size: 18px;
+  font-family:  powderfont;
+  letter-spacing: 1.5px;
+  font-weight: 600;
 }
+.top span{
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  color: #5c6672;
+  font-family:  powderfont;
 
+
+}
+.companylogo{
+  width: 80px;
+}
 .bottom{
   padding: 127px 0 100px 0;
   background: #ffffff;
@@ -37,36 +67,50 @@ body{
  
 }
 .bottom h1{
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 23px;
+  font-weight: 600;
   line-height: 20px;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   margin-bottom: 10px;
+  font-family: custumfont;
 }
 .bottom p{
   font-size: 20px;
   line-height: 20px;
   letter-spacing: 2px;
   margin-bottom: 20px;
+  font-family: powderfont;
+  color: #ea6d8b;
+  font-weight: 400;
 
 
 }
+
 .display{
   display: flex;
   flex-direction: row;
-  padding: 0 10px;
+  padding: 0 0 10px 0;
 }
 .detail{
- margin: 0 auto; 
- max-width: 275px;
- font-size: 18px;
+  position: relative;
+  max-width: 286px;
+  margin: 0 auto;
 }
 
 .icon{
-  padding: 10px;
+  padding: 9px;
+  color: black;
+  font-size: 24px;
+  color: #2e3440;
 }
 .data{
-  padding: 10px;
+    padding: 10px;
+    color: #2e3440;
+    font-size: 19px;
+    font-family: powderfont;
+    font-weight: bold;
+    text-transform: capitalize;
+  
 }
 
 
@@ -115,24 +159,24 @@ body{
 }
 
 .left-side-clip{
-  width: 20px;
-  height: 150px;
+  width: 100px;
+  height: 143px;
   background-color: #e91d36;
   position: absolute;
-  border-radius: 10px;
-  bottom: 170px;
-  left: -9px;
+  border-radius: 20px;
+  bottom: 207px;
+  left: -86px;
  
   
 }
 
 .right-side-clip{
-  width: 20px;
-  height: 150px;
+  width: 100px;
+  height: 143px;
   background-color: #e91d36;
   position: absolute;
-  border-radius: 10px;
-  bottom: 170px;
-  right: -9px;
+  border-radius: 20px;
+  bottom: 207px;
+  right: -86px;
   
 }
