@@ -1,19 +1,107 @@
+@font-face
+{ 
+  font-family: customfonts;
+  src: url(/fonts/imprimerie-bold.ttf);
+}
+  
+
+html, body {
+  color: #626262;
+  font-weight: lighter;
+  font-size: 14px;
+  background: black;
+}
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Noto Sans', sans-serif;
 }
 
-body {
-  background-color: white;
-}
-
-.container {
+.main-container {
   max-width: 540px;
   margin: 0 auto;
-  position: relative;
+  background: #123247;
   overflow: hidden;
-  background: yellowgreen ;
+}
+
+.triangle-class{
+  position: relative;
+}
+#top-triangle{
+  position: absolute;
+  right: 0;
+  transform: rotate(267deg);
+  
+}
+
+.company-info-wrap{
+  margin-top: 20px;
+  background: #f5cc1c;
+  height: 150px;
+  text-align: center;
+  top: 100px;
+  position: relative;
+ 
+}
+.company-info{
+  width: 100%;
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  justify-content: center;
+}
+.person-name{
+  color:#1a3243;
+  font-size: 60px;
+  font-family: customfonts;
+  font-weight: bold;
+  padding: 10px 10px 10px 10px;
+   
+}
+
+hr{
+  background: #4f4202;
+  width: 3px;
+  outline: none;
+  height: 100px;
+  transform: translateY(24px);
+}
+.profession-name{
+  font-size: 36px;
+  color: #ffffff;
+  padding: 24px 10px 25px 10px;
+}
+
+
+
+.canvas-wrap{
+  position: relative;
+  top: 70px;
+}
+
+
+.canvas-draw{
+ position: relative;
+ width: 100%;
+}
+#left-circle{
+  position: absolute;
+  left: -100px;
+}
+
+.person-contact-info-wrap{
+    min-height: 200px;
+    text-align: end;
+    padding: 30px;
+}
+
+.person-contact-info h3{
+  padding-bottom: 10px;
+}
+
+.company-domain-wrap{
+  display: flex;
+  flex-direction: row;
+ 
 }
 
 
