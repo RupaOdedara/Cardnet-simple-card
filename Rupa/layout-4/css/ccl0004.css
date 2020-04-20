@@ -1,7 +1,24 @@
+@font-face{
+  font-family: customfont;
+  src: url(/fonts/sfarborcrestlight.ttf);
+}
+@font-face{
+
+
+  font-family: knema;
+  src: url(/fonts/knema.ttf);
+}
+
+@font-face{
+
+
+  font-family: detailtext;
+  src: url(/fonts/roadgeek\ 2000\ series\ f.ttf);
+}
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Noto Sans', sans-serif;
+  
 }
 
 body {
@@ -10,6 +27,7 @@ body {
 
 .container {
   max-width: 540px;
+  margin-top: 30px;
   margin: 0 auto;
   position: relative;
   overflow: hidden;
@@ -29,12 +47,17 @@ body {
   color: #26323a;
   font-weight: bold;
   margin-bottom: 3px;
+  /* font-family: 'Noto Sans', sans-serif; */
+  font-family:  knema;
+  font-size: 42px;
 }
 
 .top span {
   letter-spacing: 3px;
   color: #26323a;
   font-weight: 100;
+  font-family: customfont;
+  font-size: 42px;
 }
 
 .top hr {
@@ -51,7 +74,10 @@ body {
 .top p {
   color: #26323a;
   font-weight: 600;
+  font-size: 18px;
   margin-bottom: 10px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 800;
 }
 
 
@@ -86,16 +112,21 @@ body {
 
 .data {
   padding: 10px;
+    font-family: customfont;
+    font-size: 22px;
+    color: #33341b;
+    font-weight: bold;
+  
 }
 
 .mail{
-  margin-left: 24px;
+  margin-left: 61px;
 }
 .phone{
-  margin-left: 51px;
+  margin-left: 36px;
 }
 .globe{
-  margin-left: 78px;
+  margin-left: 99px;
 }
 .bottom-left-line {
   background: #13212a;

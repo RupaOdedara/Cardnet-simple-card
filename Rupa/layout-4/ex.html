@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,19 +7,42 @@
   <title>Document</title>
 </head>
 <body>
-  
-
-  <canvas id="newCanvas" width="300" height="150"></canvas>
-<script>
-
+  <h1>Cubic Bezier Curve</h1> 
       
-         var canvas = document.getElementById('newCanvas');
-         var ctx = canvas.getContext('2d');
-         ctx.beginPath();
-         ctx.moveTo(20, 10);
-         ctx.lineTo(1000, 10);
+  <canvas id="CanvasOfGeeks" width="400" height="200" 
+          style="border:solid 4px green">  
+    
+  <script>  
+      var c = document.getElementById("CanvasOfGeeks");  
+      var context = c.getContext("2d"); 
         
-         ctx.stroke();
-</script>
+      var start_pnt_X = 50; 
+      var start_pnt_Y = 100; 
+      var cntrl_pnt_1_X = 150; 
+      var cntrl_pnt_1_Y = 30; 
+      var cntrl_pnt_2_X = 250; 
+      var cntrl_pnt_2_Y = 170; 
+      var end_pnt_X     = 350; 
+      var end_pnt_Y     = 150; 
+        
+      /* Start a new Path */ 
+      context.beginPath();      
+      context.lineWidth=3; 
+        
+      /* Representing first control point */ 
+      context.strokeText( ".", cntrl_pnt_1_X, cntrl_pnt_1_Y);  
+        
+      /* Representing second control point */ 
+      context.strokeText( ".", cntrl_pnt_2_X, cntrl_pnt_2_Y);  
+        
+      /* Starting point of the curve */ 
+      context.moveTo(start_pnt_X, start_pnt_Y);  
+      context.bezierCurveTo(cntrl_pnt_1_X, cntrl_pnt_1_Y,  
+          cntrl_pnt_2_X, cntrl_pnt_2_Y, end_pnt_X, end_pnt_Y); 
+        
+      /* Drawing line on the canvas  */ 
+      context.stroke();  
+  </script>  
 </body>
 </html>
+       
