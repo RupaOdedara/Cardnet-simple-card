@@ -1,75 +1,67 @@
-
+html, body {
+ 
+  color: #626262;
+  font-weight: lighter;
+  font-size: 14px;
+  background: black;
+}
+img {
+  max-width: 100%;
+}
 * {
   margin: 0;
   padding: 0;
   font-family: 'Noto Sans', sans-serif;
 }
-.main{
-  width: 100%;
-}
-.container{
+.main-container {
   max-width: 540px;
   margin: 0 auto;
-  position: relative;
-  height: 100vh;
-  overflow: hidden;
   background-image: linear-gradient(-134deg, #ffffff, #f6f6f6, #ffffff);
+  position: relative;
+  overflow: hidden;
+  
+}
+.company-info-wrap {
+  height: 200px;
+  position: relative;
+}
+.company-info {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
 }
 
-/* top */
-
-.top {
-  padding: 60px 30px 30px 43px;
-}
-
-
-.top p {
-  font-size: 26px;
-  font-weight: bold;
-  line-height: 20px;
-  letter-spacing: 2px;
-  color: #4f4f4f;
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-
-.top span {
-  font-size: 20px;
-  line-height: 20px;
-  letter-spacing: 3px;
-  color: #b5b5b5;
-}
 
 /* center */
 
-
-.center {
-    height: 828px;
-    width: 115px;
+.card-center{
+  width: 115px;
+    height: 1000px;
     position: absolute;
-    top: -166px;
-    right: 105px;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(60deg);
     background: #e8e8e8;
-    transform: rotateZ(47deg);
-    /* height: 828px;
-    width: 115px;
-    position: absolute;
-    top: -56px;
-    right: 185px;
-    background: #e8e8e8;
-    transform: rotateZ(43deg); */
 }
 .sidebar {
   position: absolute;
   width: 70px;
-  height: 295px;
+  height: 500px;
   left: 0;
-  bottom: 0;
+  top: 48%;
   background: #e8e8e8;
 }
+
+
+
+
+
+ 
 .top-right-line {
-  width: 20px;
-    height: 127px;
+    width: 20px;
+    height: 235px;
     position: relative;
     left: -20px;
     top: 130px;
@@ -79,126 +71,88 @@
 
 .top-left-line {
   width: 20px;
-  height: 196px;
-  position: absolute;
-  top: 592px;
+  height: 215px;
+  position: relative;
+  /* top: 564px; */
   background: #d82a45;
   left: -20px;
+  bottom: -397px;
   transform: skewY(41deg);
 }
 
-.bottom-right-line {
+
+
+.bottom-right-line{
   width: 20px;
-  height: 227px;
+  height: 245px;
   position: absolute;
   left: 93px;
-  top: 236px;
+  top: 214px;
   background: #d82a45;
   transform: skewY(40deg);
 }
+.person-contact-wrap{
+  position: relative;
+  height: 500px;
+}
 
-.sidebottom {
+.person-main-info{
   position: absolute;
-  width: 200px;
-  height: 200px;
-  bottom: -59px;
-  right: -82px;
-  background: #d82a45;
-  transform: skewY(-41deg);
+  top: 85px;
+  left: 54px;
+   
 }
-
-
-/* bottom */
-.bottom {
-  /* padding: 50px 0 0 0;
-  color: #242e37;
-  height: 317px;
+.person-contact-info{
   position: absolute;
-  bottom: 0;
-  left: 76px; */
-
-
-  padding: 50px 0 0 0;
-  color: #242e37;
-  height: 317px;
-  position: absolute;
-  bottom: -9px;
-  left: 51px;
-
-/* 
-  padding: 50px 0 0 0;
-  color: #242e37;
-  height: 317px;
-  position: absolute;
-  bottom: -37px;
-  left: 53px; */
-}
-
-.bottom h1 {
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 20px;
-  letter-spacing: 2px;
-  margin-bottom: 10px;
-  color: #383838;
-}
-
-.bottom p {
-  font-size: 14px;
-  line-height: 20px;
-  letter-spacing: 2px;
-  margin-bottom: 20px;
-  color: #9e9e9e;
-}
-
-.display {
-  display: flex;
-  flex-direction: row;
-  padding: 0 0 10px 0;
-}
-
-.detail {
-  
+  top: 145px;
+  left: 54px;
   font-size: 18px;
- 
-  
+  color: #636363;
 }
-
-.detail span {
+.person-contact-info span{
+  color: #383838;
+  font-size: 18px;
+  line-height: 30px;
+}
+.person-main-info p{
+  color: #6e6e6e;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.person-contact-info h2{
   color: #6e6e6e;
   font-size: 24px;
   font-weight: 400;
   line-height: 20px;
 }
+.person-name{
+  color: #6e6e6e;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 20px;
 
-
-/* .icon-class{
-  display: inline-block;
-  vertical-align: middle;
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  border-radius: 30px;
-  margin-bottom: 5px;
-  line-height: 30px;
-  color: white;
-  background: #d82a45;
-} */
-.icon{
-  display: inline-block;
- font-size: 14px;
-  width: 30px;
-  height: 30px;
+}
+.icon-class{
+  width: 25px;
+  height: 25px;
+  padding: 6px;
   text-align: center;
   border-radius: 50%;
-  margin-bottom: 5px;
-  line-height: 38px;
-  color: white;
+  font-size: 20px;
   background: #d82a45;
-  
+  margin-bottom: 20px;
+  display: inline-block;
 }
-.data {
-  padding: 4px 10px 5px 11px;
-  font-size: 18px;
-  color: #636363;
-}
+
+
+
+
+
+
+
+
+
+
+
