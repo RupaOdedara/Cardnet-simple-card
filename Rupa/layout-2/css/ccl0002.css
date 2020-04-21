@@ -93,18 +93,18 @@ img {
 }
 .person-contact-wrap{
   position: relative;
-  height: 500px;
+  min-height: 600px;
 }
 
 .person-main-info{
   position: absolute;
-  top: 85px;
+  top: 104px;
   left: 54px;
    
 }
 .person-contact-info{
   position: absolute;
-  top: 145px;
+  top: 166px;
   left: 54px;
   font-size: 18px;
   color: #636363;
