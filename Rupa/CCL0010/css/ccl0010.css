@@ -65,7 +65,8 @@ hr{
     transform: skewX(24deg);
     padding: 20px;
     position: relative;
-    left: -33px;
+    left: -44px;
+    height: 153px;
     
 }
 .person-contact-info{
@@ -84,26 +85,38 @@ hr{
   position: absolute;
   right: 0px;
   top: 0px;
-  height: 128px;
+  height: 193px;
   background-image: linear-gradient(to bottom right,#cb0015,#d0011f,#d5001d,#f20229, #cf0016); 
 }
 
+.person-address{
+  padding-bottom: 10px;
+}
+.comapny-domain{
+  padding-bottom: 10px;
+}
+.person-phone{
+  padding-bottom: 10px;
+}
+.person-mail{
+  padding-bottom: 10px;
+}
 .gray-side-bar{
   background: #898989;
   width: 50px;
   position: absolute;
   left: 77px;
   top: 0;
-  height: 144px;
+  height: 209px;
   z-index: 9999;
 }
 .inner-gray-side-bar{
-  background: #646464;
+  background: #898989;
     width: 16px;
     position: relative;
     height: 17px;
-    left: -15px;
-    top: 127px;
+    left: -7px;
+    top: 192px;
     z-index: -1;
     transform: skewX(10deg);  
 }
