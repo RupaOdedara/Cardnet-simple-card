@@ -24,138 +24,20 @@
 body {
   background-color: black;
 }
-
-.container {
+.main-container {
   max-width: 540px;
-  margin-top: 30px;
   margin: 0 auto;
+}
+.company-info-wrap {
+  background: #fefefe;
+  height: 200px;
   position: relative;
-  overflow: hidden;
-  background-image: linear-gradient(-17deg, #e7e7e7, #ececec, #fbfbfb, #f7f7f8, #ffffff);
 }
-
-
-/* top */
-
-.top {
-  padding: 90px 0 0 0;
-  text-align: center;
-  height: 244px;
-}
-
-.top h1 {
-  color: #26323a;
-  font-weight: bold;
-  margin-bottom: 3px;
-  /* font-family: 'Noto Sans', sans-serif; */
-  font-family:  knema;
-  font-size: 42px;
-}
-
-.top span {
-  letter-spacing: 3px;
-  color: #26323a;
-  font-weight: 100;
-  font-family: customfont;
-  font-size: 42px;
-}
-
-.top hr {
-  background-color: #8a9294;
-  border: 2px solid #8a9294;
-  border-top: 2px solid #8a9294;
-  border-bottom: 2px solid #8a9294;
-  border-right: 2px solid #8a9294;
-  border-left: 65px solid #fbb833;
-  max-width: 196px;
-  margin: 0 auto;
-}
-
-.top p {
-  color: #26323a;
-  font-weight: 600;
-  font-size: 18px;
-  margin-bottom: 10px;
-  font-family: 'Noto Sans', sans-serif;
-  font-weight: 800;
-}
-
-
-/* bottom */
-
-.bottom {
-  height: 333px;
-  font-size: 14px;
-  letter-spacing: 2px;
-  font-weight: 600;
-}
-
-
-.display {
-  display: flex;
-  flex-direction: row;
-  padding: 0 10px;
-}
-
-.detail {
+.company-info {
+  width: 100%;
   position: absolute;
-  z-index: 11111;
-  top: 288px;
-  left: 17px;
-
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.icon {
-  padding: 10px 10px 10px 10px;
-  margin-right: 13px;
-}
-
-.data {
-  padding: 10px;
-    font-family: customfont;
-    font-size: 22px;
-    color: #33341b;
-    font-weight: bold;
-  
-}
-
-.mail{
-  margin-left: 61px;
-}
-.phone{
-  margin-left: 36px;
-}
-.globe{
-  margin-left: 99px;
-}
-.bottom-left-line {
-  background: #13212a;
-  height: 234px;
-  background-image: linear-gradient(to bottom right, #19262e, #111b24, #273037, #111f2a, #13212a, #0d1e26);
-  position: absolute;
-  bottom: 0;
-  left: -195px;
-  width: 462px;
-  transform: rotateZ(55deg);
-}
-
-.top-left-line {
-  background: #faae00;
-  width: 60px;
-  height: 668px;
-  position: absolute;
-  bottom: -139px;
-  left: 130px;
-  transform: rotateZ(-35deg);
-  z-index: 9999;
-}
-
-.white-line {
-  background: #ffffff;
-  width: 4px;
-  height: 278px;
-  position: absolute;
-  bottom: 88px;
-  left: 76px;
-  transform: rotateZ(-35deg);
-}
