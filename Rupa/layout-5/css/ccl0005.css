@@ -4,7 +4,10 @@
   src: url(/fonts/imprimerie-bold.ttf);
 }
   
-
+@font-face{
+  font-family: aleobold;
+  src: url(/fonts/Aleo-Bold.ttf);
+}
 html, body {
   color: #626262;
   font-weight: lighter;
@@ -69,6 +72,7 @@ hr{
   font-size: 36px;
   color: #ffffff;
   padding: 24px 10px 25px 10px;
+  font-family: aleobold;
 }
 
 
@@ -91,6 +95,9 @@ hr{
 .person-contact-info-wrap{
     min-height: 200px;
     text-align: end;
+    color: #6f8696;
+    font-family: aleobold;
+    font-size: 14px;
     padding: 30px;
 }
 
@@ -101,7 +108,34 @@ hr{
 .company-domain-wrap{
   display: flex;
   flex-direction: row;
+  padding: 10px 0 10px 0;
  
 }
+
+.company-domain-info h4{
+  padding: 36px 0 0 0;
+  color: #ffffff; 
+  font-family: aleobold;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+
+/* svg */
+
+.center-curvveline svg {
+  
+  width: 200px;
+  height: 213px;
+
+}
+
+path {
+  stroke: #205374;
+  stroke-width: 5px;
+  stroke-linecap: round;
+  fill: none;
+}
+
 
 
