@@ -1,117 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
       , initial-scale=1.0">
-  <title>ccl0027</title>
-  <link rel="stylesheet" href="/css/ccl0027.css" type="text/css">
-  <link href="/fonts/Noto_Sans/NotoSans-Bold.ttf" rel="stylesheet">
- 
-</head>
-
-<body>
-
-  <!-- 
-    Icons URL
-    mail: https://thenounproject.com/search/?q=mail&i=245434
-    phone: https://thenounproject.com/search/?q=phone&i=3267594
-    web: https://thenounproject.com/search/?q=web&i=2120380
-    location: https://thenounproject.com/search/?q=location&i=3267733
-    whatsapp:
-    facebook:
-    instagram:
-    twitter:
-    linkedin:
-    Base 64 url
-
-    https://varvy.com/pagespeed/base64-images.html
-   -->
- 
-<div class="main-container">
-  <div class="company-info-wrap">
-    <div class="company-info">
-      <div class="main-img">
-        <img src="/image/logo.png" alt="">
-      </div>
-      <div class="company-main-info">
-        <div class="company-name"> <h1>SAYOTIVE</h1></div>
-          <div class="company-type"> <span>AGENCY</span></div>
-      </div>
-     
-    </div>
-  </div>
-
-  <div class="card-center-wrap">
-    <div class="card-center">
-      <div class="top-right-line"></div>
-      <div class="top-left-line"></div>
-      <div class="bottom-right-line"></div>
-     
-    </div>
-  </div>
-  <div class="sidebar"></div>
-
-  <div class="person-contact-wrap">
-    <div class="person-main-info">
-      <h2>SAYARA&nbsp;<span class="person-name" >AMAN</span></h2>
-      <p>Marketing  Co</p>
-    </div>
-  
-    <div class="person-contact-info">
-
-      <div class="person-phone"> 
-        <span class="phone icon"><img class="image-class" src="data:image/png;base64,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" alt=""></span> 
-        <span> +91 8758 382878 <br> +91 8758 382878 </span>
-      </div>
-      <!-- <div class="person-phone2"> 
-        <span class="phone icon"><img src="/img/phone.png" alt=""></span>
-        <span> +91 8758 382878 </span>
-      </div> -->
-      <div class="person-email"> 
-        <span class="email icon"><img class= "image-class" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAACxMAAAsTAQCanBgAAAOeSURBVGhD7ZnLaxNRGMXzaNOkdiUudKEgIgVBUCgFBRFx41tLwYJChfT9+At0YTf+A9KWPiMWFBVrlSq6ECmCoAgB3SjiQkGkIO40TZ/xfHdOp5MmM5mZPExgfhDmnjvD/b4zd+5jMj4PDw8PD4888POo6OjouBEKhaILCwvbWVWWRCKR+aWlpdj4+Pg1VvmCPCoTq6urV1dWVupYVbZIjqlU6khDQ0MoHo+/krqAOgOkJ1isGIw560bK/XHKhjFnfYxEo9EUixkEAoHZiYmJc5Qlpb29fXZtbe0MZQaxWEx50HvECjR0FmPoIWXJ6Orqemxlwoipkaqqqr8sKjARNHd3dz+lLDqI9Xx5efk8pWJzTkZMjYyNjdVhmvtBqcCUd7qnp+clZdHo7e2dQ6wTlArJRXKizMDy0RoaGtpZW1v7hVKxuLh4HIHeUBac/v7+d8lk8iilQnKQXCizknOMDA4O1uNufKBUINDhvr6+OGXBgImPiUSikVIhsSUHSlNsDXbcjQNo8C2lAlPfQQT+TJk3aOsrTOynVEhMiU1piS0jAho8FA6H5ygVCFyPnvlO6Rq08RNt7aFUSCyJSZkT20aE4eHhY1hNX1Aq0DO7MGZ+UToGk8dvtLGDUiExJBalLRwZEUZGRk5WV1c/oVRgzGzDdPkHi+p1VuVErsU6kcDksZVVCmlbYlDaxrERYXR09EIwGHxAqcB0uQWHASR4W6sxh9cMYJ2IaDUa0qa0TekIV0YEbKFb/H7/XUojrW1tbXdYzoDnWjW1gbQlbVI6xrURYXJy8jIOM5raAFvsS9gj3aPUwTbnvpyjNDLDtlyTlxE+Ik2aSgd7pJbOzs5HlD4pY5tzkXIzTXYeSStcG2HgjEfECF6AmjAJPJOflFltRms+ZlwZsTBxC4vYN5YVmAROyY9SwWumNJWGazOOjViZwLtBFIvYbuyNPrEuAzkn1+DaK5AFM+PISC4TLMv+bB/u+ntKHamTc5TyUlQwM7aN2DWxDu56Y01NzWtKn5SljlKnUGZMX3URwHjOkQk3WMSYolmFWZ45e6QUJgQm67pnLI2UysQ6+Zix+hdlGr9mrZhGUUwYsbiBGTkhl5yP1n8xIVj0TLacFE6mXxl0RTexjoWZrNg1Ms2GSwpjyuOUE6sxUhHAbPoYwao7z2LFYMxZN4KNXYzFisGYs/59RL4zyPeGcDi8t9y/kUhP4AXtpvFDj4eHh4eHh3t8vn8ntZ1yplQ10QAAAABJRU5ErkJggg==" alt=""></span> 
-        <span> faizan@fatah.co </span>
-      </div>
-      <div class="person-website"> 
-        <span class="web icon"><img class="image-class"src="data:image/png;base64,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" alt=""></span> 
-        <span> https://fatah.co </span></div>
+    <title>ccl0027</title>
+    <link rel="stylesheet" href="/css/ccl0027.css" type="text/css">
+    <link href="/fonts/Noto_Sans/NotoSans-Bold.ttf" rel="stylesheet">
+  </head>
+  <body>
+    <!-- 
+      Icons URL
+      mail: https://thenounproject.com/search/?q=mail&i=245434
+      phone: https://thenounproject.com/search/?q=phone&i=3267594
+      web: https://thenounproject.com/search/?q=web&i=2120380
+      location: https://thenounproject.com/search/?q=location&i=3267733
+      whatsapp:
+      facebook:
+      instagram:
+      twitter:
+      linkedin:
+      Base 64 url
       
-      <div class="person-div">
-        <span class="address icon"><img class="image-class" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAACxMAAAsTAQCanBgAAAM9SURBVGhD7ZrNalNBFMcb30BQQUQQXQhKQOrCrgr2FazowiKE+lRKdoIufIUGXNWNKF0roujCjxafIP7/mTNhSO+dOefMJOnCHxzunUnux3/Ox525yWCjktFodAGbIew57Ab7DHyBjWBH4/H496zHiVtIIuAl7DL7vAwGg+PpdLqLXbcgs5BEwAvYdfY15DtsD2YWZBIiIrZhb2Ydy+MB7K1FjFrICkVETGJUQtYgIqIWc062JZgTqxZBeM1tGcgsRSE8CarKa2muA4rhQGbJCokhhdJ4MfSsjXHJKyWPuEIKHvyLzU6X4bOf2Fq5Bst6pTfZZQQOYdandTZB5bxDhqvR03zG3Ok7b84jHAGLCF6Io56tMvwMNoGIW2h+Dr0qrsB6vaKtWlkkXDhak5yIFPnePRjnW1rO9+VKpxD58ji0ymB0H2sFpMgxnDRq6a1gfR7hl5lgGpgTR2HXBY/lOapoEVonHm9E5NiT0PJTJQS58QubGm9EeI5PYddHlRDkxqMab0TkHM9Cy0eL0DoT/BciFOdAq6JWSHEOpIGDgcLxSpouzkpoDVE4Lsm+iz4h6nLIyV9NeMmxfJFRRKZCneW+U4ilHMoMVrWKW0SO4RJa9TYmNxVqFVrqJWkkEWFe73SRE2KdA/GGDnGD90uCnCI4S+6dRWTfovCmsDkILRMcgDh/ihefVzfmlYSkhR2E1UT2T1EKLXXSL8CR5gDQPsI+JO0Dh4hvsF5vkOJ7rQqvtCTrDaJJdmuutIbL4aw3SFGIlLvq9UIF+30lN0VbftflFV6z6A1ifYn9Dtb6p4RO+BRHUbit8QbReiSG2H5oLZ/cU7wLtRBhVSGmDqmIOrQiEmKeN5Basm8U+7B6JIbYFmL4T+hpzp5VBDELIbwQYvihNFtiDqmIS4jQOl84FTL9bphizpGUhvnCudSmVwSp8cg8X2A/Zh1+ntaIIFVCiNzAk9By4c6LlGohgjdfeIw7L1KqciRF8sWy6mNyb7UQQZoJIYbk/wq720oEaSqEiJj3sKuzjgXwIOUfaG62FEFa5cgcucFN3HDnGgYidluLIM2FEN4obrgr+ZtUqC6WIkRYrGTNKtRpNjb+AUCsSs5fIZEtAAAAAElFTkSuQmCC" alt=""></span>
-        <span>
-          S-10, 2nd Floor, Shiv Kuber, <br>
-          Uganda Road, Porbandar-360575, Gujarat
-        </span>
+      https://varvy.com/pagespeed/base64-images.html
+      -->
+    <div class="main-container">
+      <div class="company-info-wrap">
+        <div class="company-info">
+          <div class="main-img">
+            <img src="/image/logo.png" alt="">
+          </div>
+          <div class="company-main-info">
+            <div class="company-name">
+              <h1>SAYOTIVE</h1>
+            </div>
+            <div class="company-type"> <span>AGENCY</span></div>
+          </div>
+        </div>
       </div>
-
+      <div class="card-center-wrap">
+        <div class="card-center">
+          <div class="top-right-line"></div>
+          <div class="top-left-line"></div>
+          <div class="bottom-right-line"></div>
+        </div>
+      </div>
+      <div class="sidebar"></div>
+      <div class="person-contact-wrap">
+        <div class="person-main-info">
+          <h2>SAYARA&nbsp;<span class="person-name" >AMAN</span></h2>
+          <p>Marketing  Co</p>
+        </div>
+        <div class="person-contact-info">
+          <div class="person-phone"> 
+            <span class="phone icon"><img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAACxMAAAsTAQCanBgAAAGmSURBVEhLzZU9SwNBEIbvA7VRUAsFEcHWWFpZiqASbezsBfEfWNj6F7SwsxXBQtBCS5uAhWKdRi0FiZCIuUt8dnc2JGcu3l5S+MDw7t7OvLN7uct5ljiOp5vN5hlRISwNOJSU/GA+jNmz8fxFhSaBpOYDk6Lx6g4N5iXVGbuzGdGu+L6/KENnbIMX0TQWRJ3RDbgL90hNjVMoiDqjGwRB8Imcq3EKQ6L54YcscJJI/6qdlHjKZiWtPzA7MZ4tylEU9b97CzudwPTNeBs42YosDwYM1/CNjb2mrBrL8mCgyZGYW265VSOy3D/1ej3E9Mp4t7jmJKOSomEjq1zfJZYZj6OykgHMxih4INp5wki/1eg284a5rFHjV+KGtf1qtap9ekKTKQoeVXUb38Qp8a5n6RTFpjc0UUe/MzVO7Kn6P/+GwzD8oMk6BcdyKSsN0WzQQN33HfRDbS8Dm1LqBk3mKE4+YUlq5E1KiTsYqEYbaEnbJWDtQFI9XzQXeKlY4oO0xVR9M76YXzC/JHSObRCK2jdFqYrkBhzeJEOHgdpRGnZH/wzP+wHBAlA6zo+SQgAAAABJRU5ErkJggg==' class="image-class" /></span> 
+            <span> +91 8758 382878 <br> +91 8758 382878 </span>
+          </div>
+          <!-- <div class="person-phone2"> 
+            <span class="phone icon"><img src="/img/phone.png" alt=""></span>
+            <span> +91 8758 382878 </span>
+            </div> -->
+          <div class="person-email"> 
+            <span class="email icon"><img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAACxMAAAsTAQCanBgAAAHESURBVEhL7ZQrTwNBFIX3kQICgqAJoqBIkCRUAYEEBf8Dj+B/AAaPR6AIgofh/RsQPBQhqWkrCKHbLd/ZvbttKWVLMYie5GTu3Me5s7Mz4wyQBddGp1arOb7vb7iuO2OuvtBoNB7q9fp+LpeL5mmDMAwXEb+VCW9gXf5fwIfL0KXJkud5d5E3Ac41GMIXeBAEwZCFMsGKh6k5tFpprFnI8WxMoKBWUWS7jigcjd3dwZePsdpjzDmr1Q6k+NrAYZueSFzBnKTwDIGJONIJYnnyzzHzqlFtHGmio4GA8CvFq5gBRRfYhTjSBL4pYpeYH8pVTRxpx7cNBLaozKrWMZ8RukZkNo5E4rPyYT4qR7lxpBNdGwiIvDHcw2nsK4TnYVE2vinFLCcbrESnKIDR0WUUt2EZ0UXGXVgxyl6BVaicRENHVBrpKUohpwWV1Cq+YHFtzZYo23zLMG0Ce2rgwTbxn0BeaxPVZjbYgdVexBOQnzRRbVuD9Kkw5wnUE7EJdUp+A12yPagnY52ffypnClZcoEkJ/hUlaZls8wsEnoYRLsy4TfsC4hXuxbtNB8hG8g80tv6P+CY1x74R3dpu4KiZ9W/hOJ+t3LVneLuvRwAAAABJRU5ErkJggg==' class="image-class"/></span> 
+            <span> faizan@fatah.co </span>
+          </div>
+          <div class="person-website"> 
+            <span class="web icon"><img class="image-class" src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAACxMAAAsTAQCanBgAAANwSURBVEhLvZZJbI1RGIZ7L6qirZoilIVEa4ioYGlBSQgxRSyEWpIQIlEWVkgsiDYhEYmFxMIQkahEJEjNFtKEDqYaUmKeh+qgtNfz3Pz/jXvR9lp4k6ffOeee831n+M75m/G/FAlsp4rFYtkwg+JEGGJbJBJ5g6mmvTIajTba1pk6DdTR0TEUswYWQ3/oBzFQUfgMH+AE7CXgc2x6IkgxXIJmUN/hENyE6qDcxopiWPtcgdnB8O6JAbNAh3X4OYZthFNQAOegEkZDBTTBSaiDWpgTuEmSy08SHSdgSuE751BGoAbKn2AHW/MA63ZHKNdjd8I7eAq7wbMqxUcRNkm/BULLwYPvTZDx2OnwFh7jYKTtkEl5FPYJvIapoPM+TM7+KxibdP5JFQaPwxyGHDCrdGYSOOvzYCLoSF0A68VgJn6Bh2D/FljKqm9h40pdkfs7CA4ys43Yy/ADXoCrcda5YPZNggJ4BW1wETbAATDYXEgoNZD35D1cIdBV7A1wa9bDNFgCzvI2LINi+q3DvoRaVuDEHOdW6yuh1EDDwHvh4auB4DZ8xMk37GP4GlBPWxNnYX/7DAjOxbFONh8SSg3UE9qFQf4W/t7hH2bfQxNgWYUX2Db7O97++kooNZCHnoPDXLCzM80EnyD7xgMF6hG0eV72aaXNIJ6hyaSvhFID3YV8HIywwkCfGDOqhLbNsIvyGGwhlMN26qtgOMS3mzGWR2DvWA+VlN4MnAl7gqqXr4gB3qdWys1B22BQ8dWDdyeLPmZejXVwhWs5w7PYuFJXZMbUMnAsuE2ncOCtr4IpMA90VgfzYTL9rtsHe5J6O9ZLXoc1AxNKCsSPznw/A++Be+0lrQBfcX93O1xZs2WgW8xMPY519v2w97H7Al8Jpa5IXYMy8GC9K27VANgEbrVZJkbxTcwD+5SAmVYO7kzXwkEerORJ8gVvAfUGtkJVwDZ4BT/AF7wGVjPOV6H7YkAWAxfAEWigHhflbxJUrfvYHoVFYCL8UUlZ9yfhaxD4QfNtM+372o6a4Bn4TJ0hw3yE/6ouA/0qZuwnwkdXvQuepW4pDGRSZIH1sC3+7CAP3gwKn5p/UujUi1cIZo2XzSBuTS/wM/EI/N6kK7fZT8/p8GGMv2fgzHXsGyfhStXHwKajhbAF0v/vKE05eb5hGdk/AS/w690+Wy/UAAAAAElFTkSuQmCC' /></span> 
+            <span> https://fatah.co </span>
+          </div>
+          <div class="person-div">
+            <span class="address icon">
+              <img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAACxMAAAsTAQCanBgAAAKiSURBVEhLpZRNaxNRFIYz09o2aKNtQalaxZVQvxoVXCju9IcoLlQEERcuBVci0v4CQRRBUPwBooi4EUGibqRB1CpFobRja61tzIzPOz03JJOJzugLD++5955z7p2byRQ6KYoiLwzD9XCsXq/fgs/Ev4RiuEN8HDYo18qyiSI130qT6/hHWIAaOCnW3BQ5E/gIZNvETj5M4U08YBxCRKymi0ZNcxLxN3Jv41sYtm3SNkHiWhLPE17wPG8A1GcO3jD3EiIoM78XBtUUAuYmGI/7vr9AnC4ls8FOTvQWrxufGJ/CN0PJGIaToOtTTkjOJDaqHtauXST0wRmYJdE9/iVcP6RlxQdRbom1i7ieTrkBnIOipcXyzZ16yS2bq+MMj30fAogTJMUwDw9Im7HcHky1fXGSKblBFwyZ68f9iqsR1iqbmwflhNBc21ByA51k0Vxr/dC9esBUdcM6UK42+W7eUHKDZU72Sg6E3kZ8jA3UqEXctU66j5xNuB5nhfg1rtp00Uhv0Rg/3gdcqhE/wfdAUeuWo5dhF2uP8RXmsHAKDmjd2qWLpAEKb+A/VIWWGb+As8QHBfFpeE78UwloibH+mIPWprM4gU/iIQreqZKxjqdv0BxMG7OaszX9B95jhyF55ekisZ+iy6BPxR9Fjv4rV6gpWfnfRbLueTuFD3HdcapY02/0CN+hGivPJgp0VUcg/mxYz4Y0B5NscBRvefczi8IinIBp9VxtHYup8AvN9Y1q+TTkEo3cW3UV9K1xChhfgyHl/Jdo5tFoBO4SLwnie7CN5vnuvZPUiMajNH0Kz4h3M5ftlWxS82lcLBd+pVLpoXEZ9sOaeDWHXCMp2Vx08Z3prVarvk7+L/eux03bwM07civ5/qqJO56aK26ey6lC4TeNlTDWgTgwCAAAAABJRU5ErkJggg==' class="image-class"/>
+            </span>
+            <span>
+            S-10, 2nd Floor, Shiv Kuber, <br>
+            Uganda Road, Porbandar-360575, Gujarat
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-div-wrap">
+        <div class="bottom-div">
+        </div>
+      </div>
     </div>
-  </div>
-  
-  <div class="bottom-div-wrap">
-    <div class="bottom-div">
-
-    </div>
-  </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"
-    integrity="sha256-ABrLsV2caVEMCBfm3eNhv/CYQG+tGCqzw2f4b/Pag0M=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TimelineMax.min.js"
-    integrity="sha256-v/YsEqWkVsiNHryCWg+vjC/eDBakMAgOsCJRa0kNPOg=" crossorigin="anonymous"></script>
-  <script src="/js/main.js"> </script>
-</body>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"
+      integrity="sha256-ABrLsV2caVEMCBfm3eNhv/CYQG+tGCqzw2f4b/Pag0M=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TimelineMax.min.js"
+      integrity="sha256-v/YsEqWkVsiNHryCWg+vjC/eDBakMAgOsCJRa0kNPOg=" crossorigin="anonymous"></script>
+    <script src="/js/main.js"> </script>
+  </body>
 </html>

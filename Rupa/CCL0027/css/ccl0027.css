@@ -1,30 +1,34 @@
-html, body {
- 
+html,
+body {
   color: #626262;
   font-weight: lighter;
   font-size: 14px;
   background: black;
 }
+
 img {
   max-width: 100%;
 }
+
 * {
   margin: 0;
   padding: 0;
   font-family: 'Noto Sans', sans-serif;
 }
+
 .main-container {
   max-width: 540px;
   margin: 0 auto;
   background-image: linear-gradient(-134deg, #ffffff, #f6f6f6, #ffffff);
   position: relative;
   overflow: hidden;
-  
 }
+
 .company-info-wrap {
   height: 200px;
   position: relative;
 }
+
 .company-info {
   width: 100%;
   position: absolute;
@@ -36,15 +40,16 @@ img {
 
 /* center */
 
-.card-center{
+.card-center {
   width: 115px;
-    height: 1000px;
-    position: absolute;
-    top: 32%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(60deg);
-    background: #e8e8e8;
+  height: 1000px;
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(60deg);
+  background: #e8e8e8;
 }
+
 .sidebar {
   position: absolute;
   width: 70px;
@@ -54,19 +59,14 @@ img {
   background: #e8e8e8;
 }
 
-
-
-
-
- 
 .top-right-line {
-    width: 20px;
-    height: 235px;
-    position: relative;
-    left: -20px;
-    top: 130px;
-    background: #d82a45;
-    transform: skewY(40deg);
+  width: 20px;
+  height: 235px;
+  position: relative;
+  left: -20px;
+  top: 130px;
+  background: #d82a45;
+  transform: skewY(40deg);
 }
 
 .top-left-line {
@@ -80,30 +80,26 @@ img {
   transform: skewY(41deg);
 }
 
-
-
-.bottom-right-line{
+.bottom-right-line {
   width: 20px;
   height: 245px;
   position: absolute;
-  left: 93px;
+  left: 95px;
   top: 214px;
   background: #d82a45;
   transform: skewY(40deg);
 }
-.person-contact-wrap{
+
+.person-contact-wrap {
   position: relative;
   min-height: 600px;
 }
 
-.person-main-info{
+.person-main-info {
   position: absolute;
   top: 104px;
-  left: 65px;
-   
+  left: 78px;
 }
-
-
 
 .person-contact-info {
   margin-bottom: 30px;
@@ -113,6 +109,7 @@ img {
   top: 30%;
   z-index: 10;
 }
+
 .person-contact-info div {
   display: flex;
   margin-bottom: 30px;
@@ -122,8 +119,10 @@ img {
   width: 10%;
   position: relative;
 }
+
 .person-contact-info div span:nth-child(2) {
   width: 90%;
+  margin-left: 10px;
 }
 
 .person-contact-info div span:nth-child(1) img {
@@ -132,42 +131,50 @@ img {
   top: 50%;
   transform: translateY(-50%);
 }
-.person-contact-info img{
+
+.person-contact-info img {
   width: 20px;
 }
-.image-class{
+
+.image-class {
   background-color: #d82a45;
-  padding: 6px;
-  border-radius: 50%;
+  padding: 7px 6px 6px 6px;
+  border-radius: 50%
 }
 
-.person-main-info p{
+.person-main-info p {
   color: #6e6e6e;
   font-size: 18px;
   font-weight: 400;
   line-height: 20px;
   margin-bottom: 15px;
 }
-.person-contact-info h2{
+
+.person-contact-info h2 {
   color: #6e6e6e;
   font-size: 24px;
   font-weight: 400;
   line-height: 20px;
 }
-.person-name{
+
+.person-name {
   color: #6e6e6e;
   font-size: 24px;
   font-weight: 400;
   line-height: 20px;
 }
 
+.bottom-div-wrap {
+  position: relative;
+  width: 100%;
+}
 
-
-
-
-
-
-
-
-
-
+.bottom-div {
+  width: 138px;
+  height: 160px;
+  background: #d82a45;
+  position: absolute;
+  bottom: -68px ;
+  right: 0;
+  transform: skewY(-36deg)
+}
