@@ -12,7 +12,7 @@ body {
   max-width: 540px;
   margin: 0 auto;
   background-image: linear-gradient(to right, #ffffff, #f6f6f6, #ffffff);
-  overflow: hidden;
+ 
 }
 
 .company-info-wrap {
@@ -21,7 +21,7 @@ body {
 }
 
 .company-info {
-  width: 100%;
+ 
   position: absolute;
   top: 30%;
   left: 15%;
