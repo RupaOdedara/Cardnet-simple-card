@@ -20,21 +20,22 @@ img {
   max-width: 540px;
   margin: 0 auto;
   background-image: linear-gradient(-134deg, #ffffff, #f6f6f6, #ffffff);
-  position: relative;
   overflow: hidden;
+  position: relative;
+}
+
+.main-img img {
+  max-width: 150px;
 }
 
 .company-info-wrap {
   height: 200px;
-  position: relative;
+  padding-top: 32px;
+  padding-left: 40px;
 }
 
 .company-info {
   width: 100%;
-  position: absolute;
-  top: 50%;
-  left: 60%;
-  transform: translate(-50%, -50%);
 }
 
 
@@ -44,18 +45,9 @@ img {
   width: 115px;
   height: 1000px;
   position: absolute;
-  top: 32%;
-  left: 50%;
+  top: 30%;
+  left: 51%;
   transform: translate(-50%, -50%) rotate(60deg);
-  background: #e8e8e8;
-}
-
-.sidebar {
-  position: absolute;
-  width: 70px;
-  height: 500px;
-  left: 0;
-  top: 48%;
   background: #e8e8e8;
 }
 
@@ -90,30 +82,45 @@ img {
   transform: skewY(40deg);
 }
 
+.card-center-wrap {
+  height: 51px;
+}
+
 .person-contact-wrap {
+  display: flex;
+  width: 100%;
   position: relative;
-  min-height: 600px;
 }
 
 .person-main-info {
+  width: 85%;
+  position: relative;
+}
+
+.sidebar {
   position: absolute;
-  top: 104px;
-  left: 78px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 15%;
+  height: 100%;
+  background: #e8e8e8;
 }
 
 .person-contact-info {
-  margin-bottom: 30px;
-  position: absolute;
-  left: 12.5%;
-  width: 87.5%;
-  top: 30%;
-  font-weight: bold;
+  position: relative;
   z-index: 10;
+  left: 12.5%;
+  top: 4%;
 }
 
 .person-contact-info div {
   display: flex;
   margin-bottom: 30px;
+  color: #6e6e6e;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
 }
 
 .person-contact-info div span:nth-child(1) {
@@ -156,6 +163,7 @@ img {
   font-size: 24px;
   font-weight: 400;
   line-height: 20px;
+  margin-bottom: 10px;
 }
 
 .person-name {
@@ -166,16 +174,17 @@ img {
 }
 
 .bottom-div-wrap {
-  position: relative;
   width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
 }
 
 .bottom-div {
-  width: 138px;
-  height: 160px;
+  width: 70px;
+  height: 100px;
   background: #d82a45;
+  transform: skewY(-30deg);
   position: absolute;
-  bottom: -68px ;
-  right: 0;
-  transform: skewY(-36deg)
+  bottom: -20px;
 }
