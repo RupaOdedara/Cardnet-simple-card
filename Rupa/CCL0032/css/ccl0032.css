@@ -1,178 +1,181 @@
-@font-face {
-  font-family: customfonts;
-  src: url(/fonts/imprimerie-bold.ttf);
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Playfair Display', serif; */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
 }
 
-@font-face {
-  font-family: aleobold;
-  src: url(/fonts/Aleo-Bold.ttf);
+hr{
+  border: none;
 }
 
-html,
-body {
-  color: #626262;
-  font-weight: lighter;
+body{
   font-size: 14px;
   background: black;
 }
-
-* {
-  margin: 0;
-  padding: 0;
+.main{
+  width: 100%;
 }
 
 .main-container {
   max-width: 540px;
   margin: 0 auto;
   background: #123247;
-  overflow: hidden;
-
 }
 
-.triangle-class {
+
+.company-detail-wrap{
+  width: 100%;
+  
+}
+.triangle-class{
+  height: 110px;
   position: relative;
 }
 
-#top-triangle {
+.triangle-1 {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  transform: rotateZ(315deg);
+  border-top: 50px solid #f00;
   position: absolute;
-  right: 0;
-  transform: rotate(270deg);
+  top: 32px;
+  right: 3px;
 }
 
-.company-info-wrap {
-  margin-top: 20px;
+
+.company-info-wrap{
+  width: 100%;
   background: #f5cc1c;
-  height: 150px;
-  text-align: center;
-  top: 100px;
-  position: relative;
+  box-shadow: 5px 10px 26px #000;
 }
-
-.company-info {
-  width: 100%;
+.company-info{
   display: flex;
-  position: absolute;
-  flex-direction: row;
-  justify-content: center;
+
+}
+.person-name{
+  width: 49.5%;
+  padding: 30px 20px 30px 20px;
+  
+}
+.person-name h1{
+  font-size: 32px;
+  font-family: 'Playfair Display', serif;
+  color: #133447;
+  font-weight: 900;
+  text-align: right;
+
 }
 
-.person-name {
-  color: #1a3243;
-  font-size: 50px;
-  font-family: customfonts;
-  font-weight: bold;
-  padding: 18px 10px 18px 10px;
-}
 
-hr {
-  background: #4f4202;
-  width: 3px;
-  outline: none;
-  height: 100px;
-  transform: translateY(24px);
+.line{
+  width: 1%;
 }
-
-.profession-name {
-  font-size: 36px;
-  color: #ffffff;
-  padding: 24px 10px 25px 10px;
-  font-family: aleobold;
+.profession{
+  width: 49.5%;
+  padding: 20px;
 }
-
-.canvas-wrap {
-  position: relative;
-  top: 70px;
-}
-
-.canvas-draw {
-  position: relative;
-  width: 100%;
-}
-
-#left-circle {
-  position: absolute;
-  left: -100px;
-}
-
-.person-contact-info-wrap {
-  min-height: 440px;
-  text-align: end;
-  color: #7893a4;
-  font-family: aleobold;
-  font-size: 11px;
-  position: relative;
-}
-
-.person-contact-info {
-  position: absolute;
-  top: 35%;
-  right: 20px;
-  width: 300px;
-}
-
-.person-contact-info h3 {
-  padding-bottom: 10px;
-}
-
-.company-domain-wrap {
-  display: flex;
-  flex-direction: row;
-  padding: 10px 0 10px 0;
-}
-
-.company-domain-info h4 {
-  padding: 36px 0 0 0;
-  color: #ffffff;
-  font-family: aleobold;
-  font-size: 14px;
+.profession h2{
+  text-align: left;
+  font-size: 18px;
+  color: #FFF0DD;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 30px;
   letter-spacing: 2px;
+
+
 }
-
-
-/* svg */
-
-.curve-line-1 {
-  height: 25px;
+hr {
+  background: #133447;
+  width: 100%;
+  outline: none;
+  height: 90px;
+  margin-top: 28px;
+} 
+.canvas-class{
+  width: 100%;
+  display: flex;
+  margin-top: 30px;
+  height: 130px;
   overflow: hidden;
 }
-
-.curve-line-1:before {
-  content: attr(data-text);
+.circle-wrap{
+  width: 60%;
   position: relative;
-  font-size: 50px;
-  text-decoration: wavy;
-  text-decoration-color: #205370;
-  text-decoration-line: underline;
-  top: -48px;
+  
+}
+.curvveline-wrap{
+  width: 40%;
+  padding: 0 30px;
+}
+.circle{
+  width: 120px;
+  height: 120px;
+  background: #f57c21;
+  border-radius: 50%;
+  position: absolute;
+  left: -50px;
 }
 
-.curve-line-2 {
-  height: 25px;
+ .person-contact-info-wrap{
+  width: 100%;
+}
+.person-contact-info
+{
+  padding: 0px 30px 0 30px;
+  text-align: end;
+  margin-bottom: 65px;
+}
+.person-contact-info p{
+  color: #FFF0DD;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  letter-spacing: 2px;
+  margin-bottom: 3px;
+} 
+.company-domain-wrap{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
   overflow: hidden;
+  
+}
+.draw-canvas{
+  width: 30%;
+  padding: 15px 0px 15px 30px;
+  
+}
+.company-domain-info{
+  width: 70%;
+  padding: 30px 30px 0 0;
+  
+}
+.company-domain-info p{
+  color: #FFF0DD;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: right;
+  margin-bottom: 3px;
 }
 
-.curve-line-2:before {
-  content: attr(data-text);
-  position: relative;
-  font-size: 50px;
-  text-decoration: wavy;
-  text-decoration-color: #205370;
-  text-decoration-line: underline;
-  top: -48px;
+
+
+.triangle-2 {
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    border-right: 40px solid #FFF0DD;
+    transform: rotate(-45deg);
 }
 
-.curve-line-3 {
-  height: 25px;
-  overflow: hidden;
-  margin-bottom: 20px;
-}
 
-.curve-line-3:before {
-  content: attr(data-text);
-  position: relative;
-  font-size: 50px;
-  text-decoration: wavy;
-  text-decoration-color: #205370;
-  text-decoration-line: underline;
-  top: -48px;
-}

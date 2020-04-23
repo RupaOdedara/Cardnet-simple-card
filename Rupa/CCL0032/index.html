@@ -6,10 +6,12 @@
       , initial-scale=1.0">
     <title>ccl0032</title>
     <link rel="stylesheet" href="/css/ccl0032.css" type="text/css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap" rel="stylesheet">
+    <link rel="manifest" href="/manifest.json">
   </head>
   <body>
-     <!-- 
+    <!-- 
       Icons URL
       mail: https://thenounproject.com/search/?q=mail&i=245434
       phone: https://thenounproject.com/search/?q=phone&i=3267594
@@ -24,50 +26,83 @@
       
       https://varvy.com/pagespeed/base64-images.html
       -->
-    <div class="main-container">
-      <div class="triangle-class">
-        <canvas id="top-triangle" width="100" height="75"></canvas>
-      </div>
-      <div class="company-info-wrap">
-        <div class="company-info">
-          <h1 class="person-name">Steven <br>Smith</h1>
-          <hr>
-          <h2 class="profession-name">Art <br>Director</h2>
-        </div>
-      </div>
-      <div class="canvas-wrap">
-        <div class="canvas-draw">
-          <canvas id="left-circle" width="160" height="176"></canvas>
-        </div>
-      </div>
-      <div class="person-contact-info-wrap">
-        <div class="person-contact-info">
-          <div class="center-curvveline">
-            <div class="curve-line-1" data-text="curve" ></div>
-            <div class="curve-line-2" data-text="curve"></div>
-            <div class="curve-line-3" data-text="curve"></div>
+    <div class="main">
+      <div class="main-container">
+        <div class="company-detail-wrap">
+          <div class="triangle-class">
+           <div class="triangle-1"></div>
           </div>
-          <div class="person-email">
-            <h3>Yourmail@gmail.com</h3>
-          </div>
-          <div class="person-contact">
-            <h3>+234 2342 2344</h3>
-          </div>
-          <div class="person-address">
-            <h3>123 North Street .NewYork City USA 23  North Street .</h3>
+          <div class="company-info-wrap">
+            <div class="company-info">
+              <div class="person-name"> 
+                <h1>Steven<br>smith</h1>
+              </div>
+              <div class="line">
+                <hr>
+              </div>
+              
+              <div  class="profession">
+                <h2>ART <br>DIRECTOR</h2>
+              </div>
+            
+            </div>
           </div>
         </div>
-      </div>
-      <div class="company-domain-wrap">
-        <div class="drawcanvas">
-          <canvas id="left-white-triangle" width="100" height="75">
-          </canvas>
+        <div class="canvas-class">
+          <div class="circle-wrap">
+            <div class="circle"></div>
+          </div>
+          <div class="curvveline-wrap">
+            <div class="curve-line-1">
+              <img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJsAAAAYCAYAAADtRY/6AAAACXBIWXMAABYlAAAWJQFJUiTwAAAESklEQVRogeWb21HbQBSGD0zeTQWRU0FIBZgKUOICsCvATPyOeddMTAUWBWgwFWAqwO7A2wGugMxxfoVF2NqzN2En/wMzYLH7ze7Zc1v54OXlhVhJd3hERMf0qrkqsmfaIW1gpB3lbBNRu/Ln/55zbWxJd9gjojERtSqfKyKa8WeqyOYxAExKukM2rgERdfjXLY8z5xScyw/iZD5ex3TDOpbaF86Ftu/BOA8+//jJkz8Inr3nTW9qkXDqciI6sfzXW3A24u32iPMYDsWW84aIRiE4D+E1JDpjF5t0h6nvpCbB084dFoZ1TkRLnOB94KymBcEFzidHzgvsuzcnG9uRxfPsdu8AH0UYe1Lj4qWcD5E5R4E4nyJz5uD0GobDqq/BHTr+3yTGAmmGFkqxODkaXAXmDB4xku5wDA8aQi1fgztEvuGiSchQhcUOaWilJiFDFYz3V6jxNOUROC9CjQd5GVxZjY4dwVbcivAtGpBkzz1DUp2Ys+2b5GKRZxE5FdYzBOdTOKx34mq1Y8v5iX+oIhvA4FLkcMcoCExqoZT3PZFTiw3kKq40bltOZ0+MHl8u5FxhPlvOBHM4h1RwToWPu3J+RWVrlaL8bepWZVnSX6siG9lMXAqJtiT/2dh6AecUC2DSpSqysSOn1PszZ6966i05+6rInNIbFASSPG1j6wVeMRdyfldFJjXs7camTS6F/2bb+EXOJ+nx3aoiqz1FSXc4FZzKFdz/h3DC68wEG+mUniDvvWuYU5yeGKtRQC0EY00BKZIWlkx6NBkaJOFsIRG35ZSc3nsTJzalI+QUewx6G4lMMh5cjVOF5JS2Pjqw4jollpVtXnP9VGolzV+wQKmAs8w3pJLkk0qav4CzJ+FE6DZKOxAmzoW0ia+tp0knSIWMEhmbxcRnCLu1wjOSRDS1qXgQdiSbfo5emYRTkrPacnIYl2zQhbBPOBaGvHe5ZJ3AeSl49ErCaczZdFkkyduSzyMsjCQHvOEqWQz3dh5J/rZ1Di3ES8bwKY6knBvn0Dya5ED4FEezEIWirbFJE0fCScrxPCEU94Stg4UqMud2CjjngjBN2psYLpycT/q2U5bCuZS2nm20KZritOmD6pzsHct1tTM2aqax6VQxVtVAYzNUQ1ta6boqVENbWulWVYbvqbWxUZw7TF3OPaaqInOe6qfWRxa9RhdZt6S2yeOmifXF6SIexnDtOGmdLkMZmsZ5G4GzH8rQ6A/nKCJnsJdekd+6cg6cPFspi4avRMb+z45wBvO8Vf3jnI+urxitBePo+4wB9WMZGr1y+nriVcwNpFfOG89hVrhG2jXOpZdnK2V5n6brES2SRr7fgGRc0kyuap84ew2+up+ilSXhPA1ibJXJe4LeEV9W5zaXuCGFwiEVco5D5mc2AufAcIjLNzfyHeZcR4SgxlYB6KAfVH5VjL3C80ctyDbtA6f2FcZ942QPO1t7WiL6DTvpbuUinXfvAAAAAElFTkSuQmCC' />
+            </div>
+            <div class="curve-line-1">
+              <img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJsAAAAYCAYAAADtRY/6AAAACXBIWXMAABYlAAAWJQFJUiTwAAAESklEQVRogeWb21HbQBSGD0zeTQWRU0FIBZgKUOICsCvATPyOeddMTAUWBWgwFWAqwO7A2wGugMxxfoVF2NqzN2En/wMzYLH7ze7Zc1v54OXlhVhJd3hERMf0qrkqsmfaIW1gpB3lbBNRu/Ln/55zbWxJd9gjojERtSqfKyKa8WeqyOYxAExKukM2rgERdfjXLY8z5xScyw/iZD5ex3TDOpbaF86Ftu/BOA8+//jJkz8Inr3nTW9qkXDqciI6sfzXW3A24u32iPMYDsWW84aIRiE4D+E1JDpjF5t0h6nvpCbB084dFoZ1TkRLnOB94KymBcEFzidHzgvsuzcnG9uRxfPsdu8AH0UYe1Lj4qWcD5E5R4E4nyJz5uD0GobDqq/BHTr+3yTGAmmGFkqxODkaXAXmDB4xku5wDA8aQi1fgztEvuGiSchQhcUOaWilJiFDFYz3V6jxNOUROC9CjQd5GVxZjY4dwVbcivAtGpBkzz1DUp2Ys+2b5GKRZxE5FdYzBOdTOKx34mq1Y8v5iX+oIhvA4FLkcMcoCExqoZT3PZFTiw3kKq40bltOZ0+MHl8u5FxhPlvOBHM4h1RwToWPu3J+RWVrlaL8bepWZVnSX6siG9lMXAqJtiT/2dh6AecUC2DSpSqysSOn1PszZ6966i05+6rInNIbFASSPG1j6wVeMRdyfldFJjXs7camTS6F/2bb+EXOJ+nx3aoiqz1FSXc4FZzKFdz/h3DC68wEG+mUniDvvWuYU5yeGKtRQC0EY00BKZIWlkx6NBkaJOFsIRG35ZSc3nsTJzalI+QUewx6G4lMMh5cjVOF5JS2Pjqw4jollpVtXnP9VGolzV+wQKmAs8w3pJLkk0qav4CzJ+FE6DZKOxAmzoW0ia+tp0knSIWMEhmbxcRnCLu1wjOSRDS1qXgQdiSbfo5emYRTkrPacnIYl2zQhbBPOBaGvHe5ZJ3AeSl49ErCaczZdFkkyduSzyMsjCQHvOEqWQz3dh5J/rZ1Di3ES8bwKY6knBvn0Dya5ED4FEezEIWirbFJE0fCScrxPCEU94Stg4UqMud2CjjngjBN2psYLpycT/q2U5bCuZS2nm20KZritOmD6pzsHct1tTM2aqax6VQxVtVAYzNUQ1ta6boqVENbWulWVYbvqbWxUZw7TF3OPaaqInOe6qfWRxa9RhdZt6S2yeOmifXF6SIexnDtOGmdLkMZmsZ5G4GzH8rQ6A/nKCJnsJdekd+6cg6cPFspi4avRMb+z45wBvO8Vf3jnI+urxitBePo+4wB9WMZGr1y+nriVcwNpFfOG89hVrhG2jXOpZdnK2V5n6brES2SRr7fgGRc0kyuap84ew2+up+ilSXhPA1ibJXJe4LeEV9W5zaXuCGFwiEVco5D5mc2AufAcIjLNzfyHeZcR4SgxlYB6KAfVH5VjL3C80ctyDbtA6f2FcZ942QPO1t7WiL6DTvpbuUinXfvAAAAAElFTkSuQmCC' />
+            </div>
+            <div class="curve-line-1">
+              <img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJsAAAAYCAYAAADtRY/6AAAACXBIWXMAABYlAAAWJQFJUiTwAAAESklEQVRogeWb21HbQBSGD0zeTQWRU0FIBZgKUOICsCvATPyOeddMTAUWBWgwFWAqwO7A2wGugMxxfoVF2NqzN2En/wMzYLH7ze7Zc1v54OXlhVhJd3hERMf0qrkqsmfaIW1gpB3lbBNRu/Ln/55zbWxJd9gjojERtSqfKyKa8WeqyOYxAExKukM2rgERdfjXLY8z5xScyw/iZD5ex3TDOpbaF86Ftu/BOA8+//jJkz8Inr3nTW9qkXDqciI6sfzXW3A24u32iPMYDsWW84aIRiE4D+E1JDpjF5t0h6nvpCbB084dFoZ1TkRLnOB94KymBcEFzidHzgvsuzcnG9uRxfPsdu8AH0UYe1Lj4qWcD5E5R4E4nyJz5uD0GobDqq/BHTr+3yTGAmmGFkqxODkaXAXmDB4xku5wDA8aQi1fgztEvuGiSchQhcUOaWilJiFDFYz3V6jxNOUROC9CjQd5GVxZjY4dwVbcivAtGpBkzz1DUp2Ys+2b5GKRZxE5FdYzBOdTOKx34mq1Y8v5iX+oIhvA4FLkcMcoCExqoZT3PZFTiw3kKq40bltOZ0+MHl8u5FxhPlvOBHM4h1RwToWPu3J+RWVrlaL8bepWZVnSX6siG9lMXAqJtiT/2dh6AecUC2DSpSqysSOn1PszZ6966i05+6rInNIbFASSPG1j6wVeMRdyfldFJjXs7camTS6F/2bb+EXOJ+nx3aoiqz1FSXc4FZzKFdz/h3DC68wEG+mUniDvvWuYU5yeGKtRQC0EY00BKZIWlkx6NBkaJOFsIRG35ZSc3nsTJzalI+QUewx6G4lMMh5cjVOF5JS2Pjqw4jollpVtXnP9VGolzV+wQKmAs8w3pJLkk0qav4CzJ+FE6DZKOxAmzoW0ia+tp0knSIWMEhmbxcRnCLu1wjOSRDS1qXgQdiSbfo5emYRTkrPacnIYl2zQhbBPOBaGvHe5ZJ3AeSl49ErCaczZdFkkyduSzyMsjCQHvOEqWQz3dh5J/rZ1Di3ES8bwKY6knBvn0Dya5ED4FEezEIWirbFJE0fCScrxPCEU94Stg4UqMud2CjjngjBN2psYLpycT/q2U5bCuZS2nm20KZritOmD6pzsHct1tTM2aqax6VQxVtVAYzNUQ1ta6boqVENbWulWVYbvqbWxUZw7TF3OPaaqInOe6qfWRxa9RhdZt6S2yeOmifXF6SIexnDtOGmdLkMZmsZ5G4GzH8rQ6A/nKCJnsJdekd+6cg6cPFspi4avRMb+z45wBvO8Vf3jnI+urxitBePo+4wB9WMZGr1y+nriVcwNpFfOG89hVrhG2jXOpZdnK2V5n6brES2SRr7fgGRc0kyuap84ew2+up+ilSXhPA1ibJXJe4LeEV9W5zaXuCGFwiEVco5D5mc2AufAcIjLNzfyHeZcR4SgxlYB6KAfVH5VjL3C80ctyDbtA6f2FcZ942QPO1t7WiL6DTvpbuUinXfvAAAAAElFTkSuQmCC' />
+            </div>
+          </div>
         </div>
-        <div class="company-domain-info">
-          <h4>www.yourdomain.com</h4>
+        <div class="person-contact-info-wrap">
+          
+          <div class="person-contact-info">
+            
+            <div class="person-email">
+              <p>Yourmail@mail.com</p>
+            </div>
+            <div class="person-contact">
+              <p>+234559 5969</p>
+            </div>
+            <div class="person-address">
+              <p>123 North Street . newyork city USA</p>
+            </div>
+            <div class="person-facebook-link">
+              <p>www.facebook.com/stevensmith</p>
+            </div>
+            <div class="person-position">
+              <p>Devloper</p>
+            </div>
+          </div>
         </div>
+        <div class="company-domain-wrap">
+          <div class="draw-canvas">
+           <div class="triangle-2"></div>
+            
+          </div>
+          <div class="company-domain-info">
+            <p>www.yourdomain.com</p>
+          </div>
+        </div>
+      
       </div>
     </div>
+     
+
+
+
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"
       integrity="sha256-ABrLsV2caVEMCBfm3eNhv/CYQG+tGCqzw2f4b/Pag0M=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TimelineMax.min.js"
