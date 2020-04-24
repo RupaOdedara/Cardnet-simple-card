@@ -1,0 +1,134 @@
+/* font-family: 'Roboto', sans-serif; */
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+img{
+  max-width: 100%;
+}
+body{
+  font-size: 14px;
+  width: 100%;
+}
+.main{
+  width: 100%;
+}
+.main-container{
+  max-width: 540px;
+  margin: 0 auto;
+  background: #434142;
+  text-align: center;
+}
+.company-profile-wrap{
+  width: 100%;
+}
+.company-profile{
+  width: 100%;
+}
+.company-profile img{
+  width: 70%;
+  border: 10px solid #f49536;
+  border-radius: 50%;
+}
+
+.company-wrap{
+  padding: 50px 0;
+}
+.company-detail{
+  margin-top: 30px;
+}
+.company-detail h1{
+
+  color: #f39536;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+  margin-bottom: 3px;
+}
+.company-detail p{
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+}
+.company-address{
+  font-size: 26px;
+}
+.person-phone{
+  font-size: 20px;
+}
+.fansy-line{
+  width: 45%;
+  margin: 50px auto;
+  border-top: 3px  dashed #f39536;
+}
+
+.company-social-wrap{
+  width: 100%;
+  padding-top: 40px;
+ 
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+
+}
+.left-side-box-wrap{
+  width: 20%;
+  position: relative;
+}
+.domain-name{
+  width: 60%;
+  padding-bottom: 20px;
+ 
+ 
+}
+.right-side-box-wrap{
+  width: 20%;
+  position: relative;
+ 
+}
+.right-side-box{
+  width: 100px;
+  background-image: linear-gradient(to bottom,
+  transparent 51%, #434142 0%), linear-gradient(to right, #f49536 38%,
+  #434142 0%);
+  background-size: 29px 8px, 13px 11px;
+  position: absolute;
+  transform: rotate(43deg);
+  height: 100px;
+  right: -42px;
+  
+}
+.left-side-box{
+  width: 100px;
+  background-image: linear-gradient(to bottom, transparent 51%, #434142 0%), linear-gradient(to right, #f49536 38%, #434142 0%);
+  background-size: 29px 8px, 13px 11px;
+  position: absolute;
+  transform: rotate(43deg);
+  height: 100px;
+  left: -42px;
+  
+  
+}
+
+.social-links img{
+  padding: 7px 0 7px 0;
+}
+.icon-link{
+    background: #ffffff;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 2px;
+}
+.social-links p{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 15px;
+  font-size: 20px;
+}
