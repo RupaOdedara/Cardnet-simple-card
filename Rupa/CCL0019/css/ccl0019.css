@@ -1,0 +1,129 @@
+/* font-family: 'Noto Sans', sans-serif; */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-size: 14px;
+}
+a{
+  text-decoration: none;
+}
+img{
+  max-width: 100%;
+}
+/* main */
+.main{
+  width: 100%;
+}
+.main-container{
+  max-width: 540px;
+  margin: 0 auto;
+  background: #271D26;
+}
+.company-profile-wrap{
+  width: 100%;
+  text-align: center;
+  position: relative;
+  height: 230px;
+  overflow: hidden;
+  
+
+}
+.company-logo{
+ padding-top: 30px;
+}
+.company-logo img{
+  width: 20%;
+}
+.outer-triangle{
+  
+  width: 280px;
+  height: 300px;
+  border-bottom: 20px solid #F2A531;
+  border-right: 20px solid #63D8C5;
+  position: absolute;
+  left: 50%;
+  top: -9%;
+  transform: translate(-50%,-50%) rotate(45deg);
+  
+ 
+}
+.inner-triangle{
+  border: 20px solid wheat;
+  border-bottom: 20px solid #A752A7;
+  border-right: 20px solid #EF5E5B;
+  width: 200px;
+  height: 230px;
+  margin: 15px auto;
+
+}
+
+
+/* contact */
+.person-main-info-wrap{
+  width: 100%;
+}
+.person-main-info{
+  width: 100%;
+  margin-bottom: 40px;
+  margin-top: 10px;
+
+}
+.person-main-info h1{
+
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+}
+.person-main-info p{
+  color: #6D6E70;
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+
+.person-contact-detail{
+  width: 100%;
+}
+.wrap{
+  margin-bottom: 10px;
+  display: flex;
+}
+.icon{
+  background: #A752A7;
+  width: 20%;
+  height: 50px;
+  border-bottom-right-radius: 7px;
+  border-top-right-radius: 7px;
+  position: relative;
+}
+.icon img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.person-detail{
+  width: 80%;
+  position: relative;
+  word-break: break-all;
+
+}
+.person-contact-detail a{
+  display: block;
+  color: #A752A7;
+  font-size: 18px;
+  font-family: 'Noto Sans', sans-serif;
+  left: 10%;
+  top: 50%;
+  padding: 10px;
+  transform: translate(-10%,-50%);
+  position: absolute;
+}
