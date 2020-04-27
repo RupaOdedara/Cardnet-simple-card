@@ -1,7 +1,7 @@
 html,
 body {
   color: #626262;
-  font-weight: lighter;
+  font-weight: bold;
   font-size: 14px;
   background: black;
 }
@@ -38,7 +38,9 @@ img {
   width: 100%;
 }
 
-
+.company-type span{
+  margin: 0 20px;
+}
 /* center */
 
 .card-center {
