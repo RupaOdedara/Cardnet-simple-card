@@ -189,7 +189,7 @@ body{
   top: 12.5%;
 }
 .right-dot-clip{
-  background-image: radial-gradient(#ffffff 22%, #10266b 0%);
+  background-image: radial-gradient(#ffffff 16%, #10266b 0%);
   background-position: 0 0;
   background-size: 20px 22px;
   height: 85px;
@@ -208,7 +208,7 @@ body{
   position: relative;
 }
 .left-dot-clip{
-    background-image: radial-gradient(#ffffff 22%, #10266b 0%);
+    background-image: radial-gradient(#ffffff 16%, #10266b 0%);
     background-position: 0 0;
     background-size: 20px 22px;
     height: 85px;
