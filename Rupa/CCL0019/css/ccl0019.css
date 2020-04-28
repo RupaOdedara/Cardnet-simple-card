@@ -51,11 +51,11 @@ img{
  
 }
 .inner-triangle{
-  border: 20px solid wheat;
+  
   border-bottom: 20px solid #A752A7;
   border-right: 20px solid #EF5E5B;
-  width: 210px;
-  height: 230px;
+  width: 225px;
+  height: 250px;
   margin: 15px auto;
 
 }
@@ -117,21 +117,31 @@ img{
   position: relative;
   right: -10px;
 }
+
 .phone span:nth-child(1){
   background: #A752A7;
-
 }
 
 .phone a{
   color: #A752A7;
-  left: 30px;
+  
 
 }
-.website span:nth-child(1){
-  background: #63D8C5 ;
+.right span:nth-child(1){
   order: 2;
 }
 
+.left span:nth-child(2)
+{
+  left: 40px;
+}
+.right span:nth-child(2)
+{
+  right: 0;
+}
+.website span:nth-child(1){
+  background: #63D8C5 ;
+}
 .website a{
   color: #63D8C5;
   right: 0;
@@ -142,12 +152,12 @@ img{
 }
 .mail a{
   color: #EF5E5B;
-  left: 40px;
+  
 }
 
 .address span:nth-child(1){
   background: #F2A531;
-  order: 2;
+  
 }
 
 .address a{
@@ -159,11 +169,11 @@ img{
 }
 .facebbok a{
   color: #A752A7;
-  left: 40px;
+  
 }
 .twitter span:nth-child(1){
   background: #63D8C5;
-  order: 2;
+ 
 }
 .twitter a{
   color: #63D8C5;
