@@ -120,16 +120,20 @@ body{
 .wrap{
   display: flex;
   flex-direction: row;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   width: 100%;
 }
 .icon{
   width: 20%;
-  padding-top: 2px;
+  position: relative;
   display: inline-block;
 }
 .icon img{
   width: 20px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
 }
 .person-details {
   width: 80%;
@@ -138,8 +142,6 @@ body{
   font-weight: 400;
   word-break: break-all;
   font-size: 14px;
-  
-   
 }
 .person-details a{
   font-family: 'Montserrat', sans-serif;
@@ -147,12 +149,12 @@ body{
   font-weight: 400;
   display: inline-block;
   font-size: 14px;
-  padding: 4px 0 0 0;
+ 
   
 }
 .phone-no a{
   font-family: 'Poppins', sans-serif;
-  color: white; 
+ 
 }
 
 
@@ -187,7 +189,7 @@ body{
   top: 12.5%;
 }
 .right-dot-clip{
-  background-image: radial-gradient(#ffffff 16%, #10266b 0%);
+  background-image: radial-gradient(#ffffff 22%, #10266b 0%);
   background-position: 0 0;
   background-size: 20px 22px;
   height: 85px;
@@ -206,7 +208,7 @@ body{
   position: relative;
 }
 .left-dot-clip{
-    background-image: radial-gradient(#ffffff 16%, #10266b 0%);
+    background-image: radial-gradient(#ffffff 22%, #10266b 0%);
     background-position: 0 0;
     background-size: 20px 22px;
     height: 85px;
