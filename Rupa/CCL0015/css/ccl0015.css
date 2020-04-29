@@ -5,6 +5,7 @@
 }
 body{
   font-size: 14px;
+  font-family: 'Noto Sans', sans-serif;
 }
 a{
   text-decoration: none;
@@ -34,11 +35,12 @@ img{
 .company-info-overlay{
   width: 280px;
   margin: 0 auto;
-  background-color: rgba(0,0,0,0.8);
+  background-image: linear-gradient(27deg, rgba(0,0,0,1) 28%, rgba(0,0,0,0.8) 50%, rgba(0,0,0,0.9) 50%);
   z-index: 2;
   border-radius: 50%;
   height: 270px;
-  box-shadow: 0 0 257px 10px #bd782a;
+  /* box-shadow: 0 0 257px 10px #bd782a; */
+  box-shadow: 0px 2px 111px 0px rgba(196, 129, 42, 0.7)
   
 }
 .company-info{
@@ -58,21 +60,105 @@ img{
   position: absolute;
   left: 50%;
   top: 55%;
-  color: wheat;
   text-align: center;
   transform: translate(-50%,-50%);
 }
+.company-main-info h1{
+  color: #d8af46;
+  font-weight: lighter;
+  font-size: 32px;
+  text-transform: uppercase;
+  background:linear-gradient(to right, #ae7f39 2%,#af793d 6%, #966626 11%, #ecd474 27%, #764817 58%,#c8c775 78%); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.company-main-info span{
+  color:#ffc36c;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 32px;
+}
+.company-main-info p{
+  color: #d8af46;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 16px;
+  background:linear-gradient(to right, #ae7f39 2%,#af793d 6%, #966626 11%, #ecd474 27%, #764817 58%,#c8c775 78%); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+
+/* person info */
 
 .person-main-info-wrap{
   width: 100%;
   background-color: rgba(0,0,0,0.8);
-  color: aliceblue;
   margin-top: 40px;
 }
 .person-main-info{
   padding: 30px;
 }
 
+.person-main-info span{
+  color:#ffc36c;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 32px;
+ 
+}
+.person-main-info h2{
+ 
+  /* color: #fcc56b; */
+  font-weight: lighter;
+  font-size: 32px;
+  background:linear-gradient(to right, #fcc56b 27%,#c8c775 78%); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;  
+ 
+}
+
+.person-main-info p{
+  color:#ffc36c;
+  font-weight: lighter;
+  /* background:linear-gradient(to right, #ae7f39 2%,#af793d 6%, #ecd474 27%,#c8c775 78%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  text-transform: uppercase;
+  font-size: 15px;
+}
 .person-contact-info{
   padding: 30px;
 }
+
+.wrap{
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;  
+}
+
+.icon{
+  width: 15%;
+  position: relative;
+}
+.icon img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.person-detail{
+  width: 85%;
+  margin-left: 10px;
+}
+.person-detail a{
+  display: block;
+ 
+  font-weight: 700;
+  background:linear-gradient(to right, #ae7f39 2%,#af793d 6%, #ecd474 27%,#c8c775 78%); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
