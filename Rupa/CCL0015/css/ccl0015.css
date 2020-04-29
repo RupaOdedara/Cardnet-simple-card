@@ -24,9 +24,17 @@ img{
  
 }
 .bg-hero{
-  background: url(/images/bg-hero.png);
-  background-repeat: no-repeat;
+  background: url(/images/bg-hero.png); 
+
+   background-repeat: no-repeat;
   background-size: cover;
+/* 
+  background: linear-gradient(135deg, #010100 25%, transparent 25%) -50px 0,
+  linear-gradient(225deg, #010100 25%, transparent 25%) -50px 0,
+  linear-gradient(315deg, #010100 25%, transparent 25%),
+  linear-gradient(45deg, #010100 25%, transparent 25%);
+  background-size: 100px 100px;
+  background-color: #c78235; */
   border: 20px solid rgba(0,0,0,0.8);
 }
 .company-info-wrap{
@@ -35,11 +43,10 @@ img{
 .company-info-overlay{
   width: 280px;
   margin: 0 auto;
-  background-image: linear-gradient(27deg, rgba(0,0,0,1) 28%, rgba(0,0,0,0.8) 50%, rgba(0,0,0,0.9) 50%);
+  background-image: linear-gradient(405deg, rgba(0,0,0,1) 28%, rgba(0,0,0,0.8) 100%, rgba(0,0,0,0.7) 50%);
   z-index: 2;
   border-radius: 50%;
   height: 270px;
-  /* box-shadow: 0 0 257px 10px #bd782a; */
   box-shadow: 0px 2px 111px 0px rgba(196, 129, 42, 0.7)
   
 }
@@ -94,7 +101,8 @@ img{
 
 .person-main-info-wrap{
   width: 100%;
-  background-color: rgba(0,0,0,0.8);
+ 
+  background-image: linear-gradient(122deg, rgba(0,0,0,1) 28%, rgba(0,0,0,0.8) 100%, rgba(0,0,0,0.7) 50%);
   margin-top: 40px;
 }
 .person-main-info{
