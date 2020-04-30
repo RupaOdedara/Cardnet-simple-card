@@ -1,0 +1,148 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-size: 14px;
+  font-family: 'Noto Sans', sans-serif;
+  background: wheat;
+}
+a{
+  text-decoration: none;
+}
+img{
+  max-width: 100%;
+}
+/* main */
+.main{
+  width: 100%;
+}
+
+.main-container{
+  max-width: 540px;
+  margin: 0 auto;
+  background: #1c1c1c;
+  box-shadow: inset 0 0 71px #000000;
+}
+
+/* #008fae */
+
+.company-info-wrap{
+  width: 100%;
+  padding: 80px 0 40px 0;
+}
+.company-info{
+
+  width: 100%;
+  text-align: center;
+  padding: 40px 0 30px 0;
+  background: #1f1f1f;
+ /* box-shadow: 0px 1px 0px 4px #15fdfd, 0 0 4px #fff, -163px 0 22px #0c78d0, 10px 0 80px #09a3ff */
+ 
+  /* box-shadow: 0 0 40px 20px #fff, 0 0 100px 50px #ff0; */
+
+        
+ box-shadow:  0px 1px 8px 3px #15fdfd, 0px 1px 7px 7px #186486, 0px 1px 7px 7px #0c78d0;
+ 
+  
+}
+
+.company-info h1{
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+
+.company-info p{
+  font-size: 12px;
+  color: #166272;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  letter-spacing: 2px;
+}
+
+.company-info span{
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 700;
+ 
+}
+
+/* contact info */
+
+.person-info-wrap{
+  width: 100%;
+}
+.person-main-info{
+  padding: 10px 30px 10px 30px;
+}
+.person-main-info h2{
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: linear-gradient(to left, #0894b8 71%, #1f7687 83%, #153f4f 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.person-main-info span{
+  font-weight: 100;
+}
+.person-main-info p{
+  text-transform: capitalize;
+  color: #E6E6E6;
+  font-size: 14px;
+  font-weight: 600;
+}
+.person-contact-info-wrap{
+  width: 100%;
+}
+.person-contact-info{
+  padding: 10px 50px 10px 50px;
+  box-shadow: inset 0px -15px 10px -15px #000000;
+ 
+}
+
+.wrap{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.icon{
+  width: 30px;
+  height: 30px;
+  position: relative;
+  border: 3px solid #00809a;
+  border-radius: 50%;
+}
+.icon img{
+  width: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.person-detail{
+  width: 90%;
+  position: relative;
+}
+.person-detail a{
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 3%;
+  transform: translate(0,-50%);
+  color: #E6E6E6;
+  font-weight: 700;
+  
+}
+
+.phone .person-detail a:nth-child(1){
+  top: 30%;
+}
+.phone .person-detail a:nth-child(2){
+  top: 70%;
+}
