@@ -39,6 +39,7 @@ img{
 }
 .company-info-wrap{
   width: 100%;
+  margin: 50px 0;
 }
 .company-info-overlay{
   width: 280px;
@@ -138,7 +139,7 @@ img{
   font-size: 15px;
 }
 .person-contact-info{
-  padding: 30px;
+  padding: 30px 40px;
 }
 
 .wrap{
@@ -163,7 +164,6 @@ img{
 }
 .person-detail a{
   display: block;
- 
   font-weight: 700;
   background:linear-gradient(to right, #ae7f39 2%,#af793d 6%, #ecd474 27%,#c8c775 78%); 
   -webkit-background-clip: text;
