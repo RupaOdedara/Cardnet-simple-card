@@ -1,0 +1,147 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-size: 14px;
+  font-family: 'Noto Sans', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+img{
+  max-width: 100%;
+}
+/* main */
+.main{
+  width: 100%;
+}
+.main-container{
+  max-width: 540px;
+  margin: 0 auto;
+  background-image: linear-gradient(#d0a149,#dfb458,#f0c96a,#e3b85a,#e3b85a,#e3b85a,#e3b85a,#cfa048,#c29039,#bc8832,#b07926,#b17a27);
+ 
+}
+.bg-hero{
+  background: url(/images/bg-hero.png);
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.company-info-wrap{
+  width: 100%;
+  text-align: center;
+}
+.company-info{
+  padding: 20px;
+}
+
+.line-design-wrap{
+  width: 100%;
+  position: relative;
+  height: 250px;
+  overflow: hidden;
+}
+.center-black-line{
+  width: 540px;
+  background: #1C1C1C;
+  height: 4px;
+  position: absolute;
+  transform: rotate(19deg);
+  top: 125px;
+  right: -47px;
+}
+
+.bottom-black-line-1{
+  width: 118px;
+  background: #1C1C1C;
+  height: 4px;
+  position: absolute;
+  transform: rotate(163deg);
+  top: 151px;
+  
+}
+
+.bottom-black-line-2{
+  width: 152px;
+  background: #1C1C1C;
+  height: 4px;
+  position: absolute;
+  transform: rotate(162deg);
+  top: 200px;
+  
+}
+/* person-main-info */
+
+.person-main-info-wrap{
+  width: 100%;
+
+}
+.person-main-info{
+  padding: 20px;
+}
+.person-main-info h2{
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #1C1C1C;
+  font-weight: 700;
+
+}
+.person-main-info p{
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #1C1C1C;
+  font-weight: 700;
+}
+
+hr{
+  background-color: #1C1C1C;
+  outline: 0;
+  border: 0;
+  height: 2px;
+  width: 100px;
+  margin-top: 10px;
+}
+
+/* contact info */
+.person-contact-info-wrap{
+  width: 100%;
+
+}
+.person-contact-info{
+ 
+  padding: 20px 0 20px 0;
+}
+
+
+
+.wrap{
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   margin-bottom: 10px;
+}
+.icon{
+  width: 15%;
+  position: relative;
+}
+.person-detail{
+  width: 85%;
+  
+}
+.person-detail a{
+  display: block;
+  color: #1C1C1C;
+  font-weight: bold;
+ 
+}
+.icon img{
+  width: 18px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+
