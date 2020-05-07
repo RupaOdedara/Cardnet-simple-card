@@ -1,11 +1,15 @@
 
+@font-face{
+  font-family: mainheadingtext;
+  src: url(/fonts/big_noodle_titling.ttf);
+}
 *{
   margin: 0;
   padding: 0;
 }
 body{
   font-size: 14px;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 a{
   text-decoration: none;
@@ -24,9 +28,14 @@ img{
  
 }
 .bg-hero{
-  background: url(/images/bg-hero.png);
-  background-repeat: no-repeat;
-  background-size: cover; 
+  /* background: url(/images/flower.png);
+  background-repeat: repeat;
+  background-size: 81px 102px; */
+  background-color:#d0a149;
+background-image: radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%),
+radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%);
+background-size:80px 80px;
+background-position:0 0, 40px 40px;
 }
 
 .company-info-wrap{
@@ -34,42 +43,103 @@ img{
   text-align: center;
 }
 .company-info{
-  padding: 20px;
+  padding: 20px 20px 40px 20px;
 }
+.company-info h1{
+  color: #1C1C1C;
+  font-weight: 700;
+  font-family: mainheadingtext;
+  letter-spacing: 4px;
+  font-size: 32px;
+}
+
+.company-info p{
+  color: #1C1C1C;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+
 
 .line-design-wrap{
   width: 100%;
   position: relative;
-  height: 250px;
+  height: 315px;
   overflow: hidden;
 }
+
+.top-black-line-1{
+  width: 250px;
+  background: #1C1C1C;
+  height: 4px;
+  position: absolute;
+  bottom: 230px;
+  right: 13px;
+  transform: rotate(125deg);
+ 
+}
+.top-black-line-2{
+  width: 250px;
+  background: #1C1C1C;
+  height: 4px;
+  position: absolute;
+  bottom: 227px;
+  right: -59px;
+  transform: rotate(100deg);
+}
+.top-black-line-3{
+  width: 250px;
+  background: #1C1C1C;
+  height: 4px;
+  right: 102px;
+  transform: rotate(45deg);
+  position: absolute;
+  bottom: 320px;
+}
+
+.top-black-line-4{
+  width: 127px;
+  background: #1C1C1C;
+  height: 4px;
+  transform: rotate(45deg);
+  position: absolute;
+  right: -45px;
+  bottom: 205px;
+}
+
+
 .center-black-line{
+  width: 650px;
+  background: #1C1C1C;
+  height: 4px;
+  position: absolute;
+  transform: rotate(12deg);
+  top: 170px;
+  right: -65px;
+}
+
+.bottom-black-line-1{
+  width: 290px;
+  background: #1C1C1C;
+  height: 4px;
+  position: absolute;
+  transform: rotate(160deg);
+  top: 217px;
+  right: 256px;
+}
+  
+
+
+.bottom-black-line-2{
   width: 540px;
   background: #1C1C1C;
   height: 4px;
   position: absolute;
-  transform: rotate(19deg);
-  top: 125px;
-  right: -47px;
-}
-
-.bottom-black-line-1{
-  width: 118px;
-  background: #1C1C1C;
-  height: 4px;
-  position: absolute;
-  transform: rotate(163deg);
-  top: 151px;
-  
-}
-
-.bottom-black-line-2{
-  width: 152px;
-  background: #1C1C1C;
-  height: 4px;
-  position: absolute;
-  transform: rotate(162deg);
-  top: 200px;
+  top: 259px;
+  transform: rotate(-13deg);
+  right: 124px;
   
 }
 /* person-main-info */
@@ -82,16 +152,19 @@ img{
   padding: 20px;
 }
 .person-main-info h2{
-  font-size: 30px;
+  font-size: 35px;
   text-transform: uppercase;
   color: #1C1C1C;
   font-weight: 700;
+  font-family: mainheadingtext;
+  letter-spacing: 4px;
 
 }
 .person-main-info p{
   font-size: 18px;
   text-transform: capitalize;
   color: #1C1C1C;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
 }
 
@@ -133,7 +206,9 @@ hr{
 .person-detail a{
   display: block;
   color: #1C1C1C;
-  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  letter-spacing: 1.5px;
  
 }
 .icon img{
