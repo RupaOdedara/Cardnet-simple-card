@@ -24,17 +24,9 @@ img{
  
 }
 .bg-hero{
-  background: url(/images/bg-hero.png); 
-
-   background-repeat: no-repeat;
-  background-size: cover;
-/* 
-  background: linear-gradient(135deg, #010100 25%, transparent 25%) -50px 0,
-  linear-gradient(225deg, #010100 25%, transparent 25%) -50px 0,
-  linear-gradient(315deg, #010100 25%, transparent 25%),
-  linear-gradient(45deg, #010100 25%, transparent 25%);
-  background-size: 100px 100px;
-  background-color: #c78235; */
+  background: linear-gradient(135deg, #010100 37%, transparent 31%) -50px 0, linear-gradient(225deg, #01010D 38%, transparent 35%) -50px 0, linear-gradient(315deg, #010100 26%, transparent 25%), linear-gradient(45deg, #010100 25%, transparent 2%);
+  background-size: 100px 80px;
+  background-color: #c78235;
   border: 20px solid rgba(0,0,0,0.8);
 }
 .company-info-wrap{
