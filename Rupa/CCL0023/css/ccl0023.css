@@ -56,16 +56,79 @@ body{
 
 
 .zigzag-line{
-  position: absolute;
-  top: 45px;
-  right: 57px;
   
+  position: absolute;
+  top: 23px;
+  right: 60px;
 }
-.zigzag-line img{
-  width: 70px;
-}
- 
 
+.zig-zag-line-1{
+  position: relative;
+  height: 16px;
+  width: 56px;
+  z-index: 1;
+}
+
+.zig-zag-line-1:before, .zig-zag-line-1:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+
+.zig-zag-line-1:before {
+  height: 12px;
+  top: 110%;
+  background: linear-gradient(-135deg, #36e3ff 8px, transparent 0) 0 8px, linear-gradient(135deg, #36e3ff 8px, transparent 0) 0 8px;
+  background-position: top left;
+  background-repeat: repeat-x;
+  background-size: 16px 16px;
+}
+.zig-zag-line-1:after {
+    height: 16px;
+    top: 100%;
+    background: linear-gradient(-135deg, #10266b 7px, transparent 0) 0 8px, linear-gradient(135deg, #10266b 7px, transparent 0) 0 8px;
+    background-position: top left;
+    background-repeat: repeat-x;
+    background-size: 16px 16px;
+}
+
+
+
+.zig-zag-line-2{
+  position: relative;
+  height: 16px;
+  width: 56px;
+  z-index: 1;
+}
+
+.zig-zag-line-2:before, .zig-zag-line-2:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+
+.zig-zag-line-2:before {
+  height: 12px;
+  top: 110%;
+  background: linear-gradient(-135deg, #36e3ff 8px, transparent 0) 0 8px, linear-gradient(135deg, #36e3ff 8px, transparent 0) 0 8px;
+  background-position: top left;
+  background-repeat: repeat-x;
+  background-size: 16px 16px;
+}
+.zig-zag-line-2:after {
+  height: 16px;
+    top: 100%;
+    background: linear-gradient(-135deg, #10266b 7px, transparent 0) 0 8px, linear-gradient(135deg, #10266b 7px, transparent 0) 0 8px;
+    background-position: top left;
+    background-repeat: repeat-x;
+    background-size: 16px 16px;
+}
 .arrow-line-one{
   width: 25px;
   height: 25px;
@@ -158,8 +221,6 @@ body{
 }
 
 
-
-
 /* center clip */
 .clip-shape-wrap{
   width: 100%;
@@ -189,7 +250,7 @@ body{
   top: 12.5%;
 }
 .right-dot-clip{
-  background-image: radial-gradient(#ffffff 16%, #10266b 0%);
+  background-image: radial-gradient(#ffffff 18%, #10266b 25%);
   background-position: 0 0;
   background-size: 20px 22px;
   height: 85px;
@@ -208,7 +269,7 @@ body{
   position: relative;
 }
 .left-dot-clip{
-    background-image: radial-gradient(#ffffff 16%, #10266b 0%);
+    background-image: radial-gradient(#ffffff 18%, #10266b 25%);
     background-position: 0 0;
     background-size: 20px 22px;
     height: 85px;
