@@ -1,8 +1,4 @@
 /* font-family: 'Montserrat', sans-serif; */
-
-
-
-
 @font-face{
   font-family: mainheadingtext;
   src: url(/fonts/Dup_____.ttf);
@@ -192,7 +188,7 @@ img{
   background: #212121;
   width: 100%;
   position: absolute;
-  top: 25%;
+  top: 32%;
 }
 .person-main-info{
   padding-top: 20px;
@@ -201,10 +197,11 @@ img{
 .person-main-info h1{
   font-family:  mainheadingtext;
   color: #ffffff;
-  font-size: 28px;
   text-transform: uppercase;
   letter-spacing: 3px;
   text-align: center;
+  font-size: 32px;
+  font-weight: 500;
 }
 
 
