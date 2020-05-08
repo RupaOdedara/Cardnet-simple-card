@@ -93,15 +93,15 @@ body {
 
 .gray-side-bar:after{
   content: "";
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 34px 24px 0;
-    border-color: transparent #979797 transparent transparent;
-    top: 195px;
-    left: -33px;
-    z-index: -1;
-    position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 34px 24px 0;
+  border-color: transparent #979797 transparent transparent;
+  top: 195px;
+  left: -33px;
+  z-index: -1;
+  position: absolute;
 }
 
 .person-contact-info-wrap{
@@ -121,14 +121,32 @@ body {
   display: flex;
   margin-bottom: 10px;
   width: 100%;
+  position: relative;
+  left: 0px;
 }
 
+.wrap:nth-child(1)
+{
+  left: -31px;
+  margin-top: 3px;
+}
+.wrap:nth-child(2){
+  left: -17px;
+}
+.wrap:nth-child(3){
+  left: -5px;
+}
+.wrap:nth-child(4){
+  left: 4px;
+}
 .icon{
   width: 15%;
   position: relative;
+  margin-right: 20px;
 }
 .icon img{
   position: absolute;
+  width: 20px;
   left: 50%;
   top: 50%;
   transform: translate(-50%,-50%);
