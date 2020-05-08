@@ -116,11 +116,11 @@ hr {
 .curvveline-wrap{
   width: 40%;
   margin: 0 33px 0 30px;
-  background: radial-gradient(circle at 100% 50%, transparent 20%, #00D4F0 21%,
+  /* background: radial-gradient(circle at 100% 50%, transparent 20%, #00D4F0 21%,
   #00D4F0 34%, transparent 35%, transparent),
-radial-gradient(circle at 0% 50%, transparent 20%, #00D4F0 21%, #00D4F0 34%, transparent 35%, transparent) 0 -50px;
-background-color: #EEEEEE;
-background-size: 75px 100px;
+  radial-gradient(circle at 0% 50%, transparent 20%, #00D4F0 21%, #00D4F0 34%, transparent 35%, transparent) 0 -50px;
+  background-color: #EEEEEE;
+  background-size: 75px 100px; */
 
 }
 .circle{
