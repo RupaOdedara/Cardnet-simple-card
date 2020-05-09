@@ -1,0 +1,134 @@
+@font-face{
+  font-family: sansation;
+  src: url(/fonts/sansation_bold.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+a{
+  text-decoration: none;
+}
+img{
+  max-width: 100%;
+}
+
+body {
+  background-color: black;
+}
+
+.main-container {
+  max-width: 540px;
+  margin: 0 auto;
+  overflow: hidden;
+  background-image: linear-gradient(to bottom right, #fefefe,#ffffff, #e7e7e7);
+}
+/* company info */
+.company-info-wrap{
+  width: 100%;
+  text-align: center;
+}
+.company-info{
+  padding: 50px 20px 100px 20px;
+}
+.company-info h1{
+  font-size: 36px;
+  color: #363D48;
+  text-transform: capitalize;
+  font-family:  sansation;
+  font-weight: bold;
+
+
+}
+.company-info p{
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #161E2B;
+  font-family: sansation;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+/* wavy line */
+.wave-line-wrap{
+  position: relative;
+  width: 100%;
+}
+ svg{
+  transform: translate(-50%, -54%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+}
+
+
+
+/* person info */
+.person-main-info-wrap{
+  width: 100%;
+  background: #1A1D20;
+}
+
+.person-main-info{
+  padding: 100px 20px 20px 20px;
+}
+
+.person-main-info h2{
+  font-size: 32px;
+  color: #008BFF;
+  text-transform: uppercase;
+  font-family:  sansation;
+  font-weight: bold;
+}
+.person-main-info p{
+  color: #B9B9B9; 
+  font-size: 18px;
+  font-family:  sansation;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.person-contact-info-wrap{
+  width: 100%;
+}
+.person-contact-info{
+  padding: 20px;
+}
+.wrap{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 7px;
+}
+.icon{
+  width: 30px;
+  height: 30px;
+  border: 2px solid #008BFF;
+  position: relative;
+  border-radius: 50%;
+}
+.icon img{
+  width: 18px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.person-detail{
+  width: 95%;
+  position: relative;
+}
+.person-detail a{
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translate(10px, -50%);
+  color: #B9B9B9; 
+  font-size: 16px;
+  font-family:  sansation;
+  font-weight: bold;
+}
+.website img{
+  left: 56%;
+}
