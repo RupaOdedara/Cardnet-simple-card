@@ -1,0 +1,179 @@
+/* font-family: 'Montserrat', sans-serif; */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif; 
+}
+
+a{
+  text-decoration: none;
+}
+img{
+  max-width: 100%;
+}
+
+body {
+  background-color: black;
+}
+.main{
+  width: 100%;
+}
+.main-container {
+  max-width: 540px;
+  margin: 0 auto;
+  background: #ffffff; 
+  overflow: hidden;
+
+}
+
+
+.bg-circle-wrap{
+  position: relative;
+}
+.bg-circle{
+  width: 200px;
+  height: 200px;
+  background: #f3f3f3;
+  border: 4px solid#ffffff;
+  border-radius: 50%;
+  box-shadow: 4px 4px 41px #ece2e2;
+  position: absolute;
+  right: -75px;
+}
+.bg-circle-2{
+  width: 200px;
+  height: 200px;
+  background: #f3f3f3;
+  border: 4px solid#ffffff;
+  border-radius: 50%;
+  box-shadow: 4px 4px 41px #ece2e2;
+  position: absolute;
+  left: -143px;
+}
+.company-info-wrap{
+  width: 100%;
+  position: relative;
+  z-index: 10;
+}
+
+.company-info{
+  display: flex;
+  padding: 20px;
+}
+.company-logo{
+  width: 25%;
+}
+.company-logo img{
+  width: 80%;
+}
+.company-detail{
+  width: 75%;
+  padding: 10px 0 25px;
+}
+.company-detail h1{
+  font-size: 24px;
+  color: #484848;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.company-detail p{
+  font-size: 14px;
+  color: #484848;
+  text-transform: uppercase;
+  font-weight: 600; 
+}
+
+
+.person-info-wrap{
+  width: 100%;
+}
+.person-main-info{
+  padding: 20px;
+  z-index: 99;
+
+}
+
+.person-profile{
+  width: 250px;
+  height: 250px;
+  background: #e19535;
+  border-radius: 50%;
+  position: relative;
+  left: -25px;
+  top: 10px;
+
+}
+.person-profile img{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.circle-wrap{
+  position: relative;
+  left: -42px;
+  top: 10px;
+}
+.circle-1{
+  width: 160px;
+  height: 160px;
+  background: #d14d3c;
+  position: absolute;
+  top: -20px;
+  border-radius: 50%;
+}
+.circle-2{
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  top: 100px;
+  background: #79c4f0;
+  border-radius: 50%;
+}
+.person-info{
+  margin-top: 40px;
+  position: relative;
+}
+
+.person-info h2{
+  text-transform: capitalize;
+  font-size: 28px;
+  color: #404064;
+  font-weight: 700;
+}
+.person-info p{
+  text-transform: capitalize;
+  font-size: 18px;
+  color: #404064;
+  font-weight: 500;
+}
+.person-contact-info-wrap{
+  width: 100%;
+  z-index: 99;
+  position: relative;
+}
+.person-contact-info{
+  padding: 20px;
+  color: #231f20;
+  font-size: 18px;
+  font-weight: 400;
+}
+.person-contact{
+  display: flex;
+  width: 100%;
+}
+
+.wrap{
+  display: flex;
+  width: 50%;
+ 
+}
+.address{
+  margin-bottom: 10px;
+}
+.icon{
+  margin-right: 10px;
+}
+.icon img{
+  width: 20px;
+}
