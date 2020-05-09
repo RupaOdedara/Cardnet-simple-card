@@ -14,11 +14,13 @@ img{
 body {
   background-color: black;
 }
-
+.main{
+  width: 100%;
+}
 .main-container {
   max-width: 540px;
   margin: 0 auto;
- background-image: linear-gradient(to bottom right, #fefefe,#ffffff, #e7e7e7);
+ background-image: linear-gradient(to left #fefefe,#ffffff,#fdfdfd, #fcfcfc,#f8f8f8);
 }
 
 .company-info-wrap{
@@ -76,10 +78,10 @@ body {
 .person-main-info{
   display: flex;
   background-image: linear-gradient(to right, #212121,#313131,#232323,#212121);
-     justify-content: flex-end;
-    transform: skew(20deg);
-    position: relative;
-    left: -30px;
+  justify-content: flex-end;
+  transform: skew(20deg);
+  position: relative;
+  left: -30px;
 }
 
 .gray-side-bar{
