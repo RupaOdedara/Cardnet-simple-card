@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+
+  <style>
+
+    .menu{
+      font-size: 14px;
+      display: flex;
+      flex-direction: row;
+      list-style: none;
+     
+      
+    }
+    .menu .item{
+      margin-left: 20px;
+    }
+
+    .menu .item a{
+      text-decoration: none;
+      display: block;
+    }
+
+    
+
+    .dropdown{
+     display: none;
+      background: #f3f3f3;
+    }
+    .dropdown .active{
+      display: block;
+    }
+
+
+  </style>
+</head>
+<body>
+  
+  <ul class="menu">
+    <li class="item"><a href="">home</a></li>
+    <li class="item drop-down-menu"><a href="">product</a>
+      <ul class="dropdown">
+        <li class="drop-down-item"><a href="">product 1</a></li>
+        <li  class="drop-down-item"><a href="">product 1</a></li>
+        <li  class="drop-down-item"><a href="">product 1</a></li>
+        <li  class="drop-down-item"><a href="">product 1</a></li>
+        <li  class="drop-down-item"><a href="">product 1</a></li>
+      </ul>
+    </li>
+   
+    <li class="item"><a href="">about</a></li>
+    <li class="item drop-down-menu"><a href="">libre</a>
+    
+      <ul class="dropdown">
+        <li class="drop-down-item"><a href="">product 1</a></li>
+        <li  class="drop-down-item"><a href="">product 1</a></li>
+        <li  class="drop-down-item"><a href="">product 1</a></li>
+        <li  class="drop-down-item"><a href="">product 1</a></li>
+        <li  class="drop-down-item"><a href="">product 1</a></li>
+      </ul>
+    </li>
+    <li class="item"><a href="">contact</a></li>
+  </ul>
+
+
+  <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script> 
+  <script src="/ex.js"></script>
+</body>
+</html>
