@@ -1,0 +1,252 @@
+/* font-family: 'Montserrat', sans-serif; */
+@font-face{
+  font-family: laborunion;
+  src: url(/fonts/LaborUnion-Regular.otf);
+}
+
+/* fdfbec */
+/* description 534e31 */
+
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+a{
+  text-decoration: none;
+}
+img{
+  max-width: 100%;
+}
+
+body {
+  background-color: #fefefe;
+}
+.main{
+  width: 100%;
+}
+.main-container {
+  max-width: 540px;
+  margin: 0 auto;
+  background: #fdfbec;
+  color: #323232;
+  box-shadow: 10px 10px 30px grey;
+  overflow: hidden;
+}
+
+.company-info-wrap{
+
+  width: 100%;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+.company-info{
+  padding: 130px 20px 50px 20px;
+}
+.company-logo img{
+  width: 15%;
+}
+
+.company-info h1{
+  font-family: laborunion;
+  font-size: 19px;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+/* person main info  */
+.person-main-info-wrap{
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+  position: relative;
+}
+.person-main-info{
+  padding: 20px;
+}
+.person-main-info h2{
+  font-family: laborunion;
+  font-size: 24px;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #111110;
+}
+.person-main-info p{
+  font-family: laborunion;
+  font-size: 18px;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #111110;
+}
+
+
+/* contact info */
+
+.person-contact-info-wrap{
+  width: 100%;
+}
+.person-contact-info{
+  padding: 20px;
+}
+.person-contact-info p a{
+  display: block;
+  font-size: 14px;
+  font-weight: lighter;
+  color: #000000;
+  letter-spacing: 3px;
+}
+
+.person-contact-info p a span{  
+  font-family: laborunion;
+}
+
+
+
+/* social detail */
+.social-info-wrap{
+  width: 100%;
+  position: relative;
+  z-index: 10;
+}
+.social-info{
+  padding: 20px 40px 20px 40px;
+}
+
+.wrap{
+  display: flex;
+  margin-bottom: 10px;
+
+}
+
+.icon{
+  border: 2px solid #323232;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: relative;
+}
+.icon img{
+  width: 18px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.person-detail{
+  width: 70%;
+  position: relative;
+}
+.person-detail a{
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-10%,-50%);
+  font-size: 16px;
+  color: #323232;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/* all shape  */
+
+.shape-wrap{
+  position: relative;
+}
+
+.white-dot {
+  width: 117px;
+  height: 130px;
+  background: -moz-radial-gradient(white 15%, transparent 16%), -moz-radial-gradient(white 15%, transparent 16%), black;
+  background: -webkit-radial-gradient(white 12%, transparent -1%), -webkit-radial-gradient(white 12%, transparent 16%), transparent;
+  background-position: 0 0, 44px 17px;
+  -webkit-background-size: 160px 160px;
+  -moz-background-size: 160px 160px;
+  background-size: 24px 40px;
+  z-index: 10;
+  position: absolute;
+}
+.shape-1{
+  width: 130px;
+  height: 206px;
+  border-radius: 50%;
+  background: #c9e5e1;
+  position: absolute;
+  left: -70px;
+  transform: rotate(68deg);
+  top: -85px;
+ 
+}
+.shape-2{
+  width: 200px;
+  height: 281px;
+  background: #444e65;
+  position: absolute;
+  right: -149px;
+  top: -40px;
+  border-radius: 50%;
+  transform: rotate(-3deg);
+  z-index: 10;
+}
+
+.shape-3{
+  width: 231px;
+  height: 276px;
+  position: absolute;
+  right: -130px;
+  top: -38px;
+  border-radius: 50%;
+  transform: rotate(-67deg);
+  background: #edc4b7;
+  z-index: 9;
+} 
+
+.shape-4{
+  width: 491px;
+  height: 900px;
+  position: absolute;
+  background: #fede2d;
+  z-index: 9;
+  top: -73px;
+  left: -43px;
+  transform: rotate(31deg);
+} 
+
+.shape-4:before{
+  content: "";
+  height: 102px;
+  width: 100px;
+  border-radius: 50%;
+  background: red;
+  position: absolute;
+ 
+}
+
+  .shape-4:after{
+    content: "";
+    height: 792px;
+    width: 676px;
+    border-radius: 50%;
+    background: #fdfbec;
+    position: absolute;
+    top: -10px;
+    left: 76px;
+    transform: rotate(156deg);
+  }
+
+  .shape-5{
+    width: 231px;
+    height: 276px;
+    position: absolute;
+    left: 0;
+    top: -38px;
+    border-radius: 50%;
+    transform: rotate(-67deg);
+    background: #edc4b7;
+    z-index: 1;
+  } 
