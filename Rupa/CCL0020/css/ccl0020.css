@@ -1,0 +1,94 @@
+/* font-family: 'Noto Sans', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+/* description noto sans semibold. */
+/* sloag noto regular */
+/* company logo bold noto */
+/* span regular */
+/* postion: noto regular
+person name: open sans bold
+bold */
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+a{
+  text-decoration: none;
+}
+img{
+  max-width: 100%;
+}
+
+body {
+  background-color: #fefefe;
+}
+
+.main{
+  width: 100%;
+}
+.main-container {
+  max-width: 540px;
+  margin: 0 auto;
+  box-shadow: 20px 20px 63px grey;
+}
+/* comapny info */
+.company-info-wrap{
+  width: 100%;
+  text-align: center;
+}
+.company-info{
+  padding: 50px 20px 50px 20px;
+}
+.company-logo img{
+  width: 20%;
+
+}
+.company-info h1{
+  font-size: 32px;
+  color: #221f1f;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.company-info h1 span{
+  font-weight: 400;
+}
+.company-info p{
+  font-size: 18px;
+  color: #a8a9ac;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  letter-spacing: 9px;
+  text-transform: uppercase;
+}
+/* person info */
+
+
+.person-main-info-wrap{
+  width: 100%;
+}
+.person-main-info{
+  padding: 30px;
+}
+.person-main-info h2{
+  font-size: 28px;
+  color: #221f1f;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase; 
+}
+.person-main-info span{
+  font-weight: 700;
+}
+
+.person-main-info p{
+ 
+  font-family: 'Noto Sans', sans-serif;
+  color: #41aee3;
+  font-size: 18px;
+  text-transform: uppercase;
+}
