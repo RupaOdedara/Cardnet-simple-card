@@ -34,11 +34,12 @@ body {
   max-width: 540px;
   margin: 0 auto;
   box-shadow: 20px 20px 63px grey;
+  
 }
 /* comapny info */
 .company-info-wrap{
   width: 100%;
-  text-align: center;
+  text-align: left;
 }
 .company-info{
   padding: 50px 20px 50px 20px;
@@ -48,7 +49,7 @@ body {
 
 }
 .company-info h1{
-  font-size: 32px;
+  font-size: 28px;
   color: #221f1f;
   font-family: 'Noto Sans', sans-serif;
   font-weight: 700;
@@ -58,7 +59,7 @@ body {
   font-weight: 400;
 }
 .company-info p{
-  font-size: 18px;
+  font-size: 12px;
   color: #a8a9ac;
   font-family: 'Noto Sans', sans-serif;
   font-weight: 400;
@@ -89,6 +90,76 @@ body {
  
   font-family: 'Noto Sans', sans-serif;
   color: #41aee3;
-  font-size: 18px;
+  font-size: 22px;
+  text-transform: capitalize;
+}
+
+
+
+
+/* contact info */
+.person-contact-info-wrap{
+  width: 100%;
+}
+
+.person-contact-info{
+  padding: 30px;
+}
+
+.wrap{
+  display: flex;
+  margin-bottom: 15px;
+}
+.icon{
+  width: 30px;
+  height: 30px;
+  background: #27a9e1;
+  border-radius: 50%;
+  position: relative;
+}
+.wrap:nth-child(even) .icon{
+  background-color: #424143;
+}
+.icon img{
+  width: 18px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.person-detail{
+  width: 60%;
+  word-break: break-all;
+  position: relative;
+}
+.person-detail a{
+  display: block;
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translate(0,-50%);
+  font-size: 12px;
+  color: #939598;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
   text-transform: uppercase;
+}
+
+.shape-wrap{
+  position: relative;
+}
+.shape-1 {
+  position: absolute;
+  top: -41px;
+  right: 25px;
+}
+.shape-2{
+  position: absolute;
+  top: -22px;
+  right: 0px;
+}
+.shape-3{
+  position: absolute;
+  bottom: -26px;
+  right: -3px;
 }
