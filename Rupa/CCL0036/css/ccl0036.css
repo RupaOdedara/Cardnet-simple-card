@@ -1,0 +1,342 @@
+/* font-family: 'Fira Sans', sans-serif; */
+
+@font-face{
+  font-family: caviardrems;
+  src: url(/fonts/Caviar\ Dreams\ Bold.ttf);
+}
+@font-face{
+  font-family: leaguespartan;
+  src: url(/fonts/LeagueSpartan-Bold.otf);
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+a{
+  text-decoration: none;
+}
+img{
+  max-width: 100%;
+}
+
+body {
+  background: #fefefe;
+}
+.main{
+  width: 100%;
+}
+.main-container {
+  max-width: 540px;
+  margin: 0 auto;
+  background: #ffffff;
+  position: relative;
+}
+.main-container:before, .main-container:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 25px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 35px 20px #777;
+  -moz-box-shadow: 0 35px 20px #777;
+  box-shadow: 0 35px 20px #777;
+  -webkit-transform: rotate(-8deg);
+  -moz-transform: rotate(-8deg);
+  -o-transform: rotate(-8deg);
+  -ms-transform: rotate(-8deg);
+  transform: rotate(-8deg);
+}
+.main-container:after
+{
+  -webkit-transform: rotate(8deg);
+  -moz-transform: rotate(8deg);
+  -o-transform: rotate(8deg);
+  -ms-transform: rotate(8deg);
+  transform: rotate(8deg);
+  right: 10px;
+  left: auto;
+}
+
+
+
+
+/* company info */
+.company-info-wrap{
+  width: 100%;
+  text-align: center;
+  height: 300px;
+  color: #ffffff;
+  position: relative;
+  overflow: hidden;
+  background: #1C2834;
+}
+
+.bg-hero{
+  position: relative;
+  transform: rotate(-29deg);
+  top: -73px;
+  left: -165px;
+}
+.square{
+  width: 120px;
+  height: 120px;
+  position: absolute;
+ 
+}
+.company-info-wrap .square:nth-child(1)
+{
+ 
+  top: 0;
+  background-image: linear-gradient(to left, #1f2b37,#29333f, #27313d,#2d3743);
+}
+.company-info-wrap .square:nth-child(2)
+{
+  top: 127px;
+  background-image: linear-gradient(to bottom, #1f2b37,#29333f, #27313d,#2d3743,#1d2935,#1c2834);
+}
+.company-info-wrap .square:nth-child(3)
+{
+  top: 254px;
+  background-image: linear-gradient(45deg, #1f2b37,#29333f, #27313d,#2d3743,#1d2935,#1c2834);
+}
+.company-info-wrap .square:nth-child(4)
+{
+  left: 140px;
+  background-image: linear-gradient(to top, #1f2b37,#29333f, #27313d,#2d3743,#1d2935,#1c2834);
+}
+
+.company-info-wrap .square:nth-child(5)
+{
+  left: 140px;
+  top: 130px;
+  background-image: linear-gradient(45deg, #1f2b37,#29333f, #27313d,#2d3743,#1d2935,#1c2834);
+}
+
+.company-info-wrap .square:nth-child(6)
+{
+  left: 140px;
+  top: 260px;
+  background-image: linear-gradient(45deg, #1f2b37,#29333f, #27313d,#2d3743,#1d2935,#1c2834);
+}
+.company-info-wrap .square:nth-child(7)
+{
+  left: 140px;
+  top: 388px;
+  background-image: linear-gradient(to left, #1f2b37,#29333f, #27313d,#2d3743,#1d2935,#1c2834);
+}
+.company-info-wrap .square:nth-child(8)
+{
+  left: 280px;
+  top: 0;
+  background-image: linear-gradient(to top, #1f2b37,#29333f, #27313d,#2d3743,#1d2935,#1c2834);
+}
+
+.company-info-wrap .square:nth-child(9)
+{
+  left: 280px;
+  top: 139px;
+  background-image: linear-gradient(to bottom, #1f2b37,#29333f, #27313d,#2d3743,#1d2935,#1c2834);
+}
+
+.company-info-wrap .square:nth-child(10)
+{
+  left: 280px;
+  top: 270px;
+  background-image: linear-gradient(to right, #1f2b37,#29333f, #27313d,#2d3743,#1d2935,#1c2834);
+}
+.company-info-wrap .square:nth-child(11)
+{
+  left: 280px;
+  top: 403px;
+  background-image: linear-gradient(to bottom, #1f2b37,#29333f, #27313d,#2d3743,#1d2935,#1c2834);
+}
+
+.company-info-wrap .square:nth-child(12)
+{
+  left: 416px;
+  top: 142px;
+  background-image: linear-gradient(90deg, #1f2b37,#29333f, #27313d,#2d3743,#1d2935,#1c2834);
+}
+.company-info-wrap .square:nth-child(13)
+{
+  left: 416px;
+  top: 275px;
+  background-image: linear-gradient(to bottom, #1f2b37,#29333f, #27313d,#2d3743,#1d2935,#1c2834);
+}
+.company-info-wrap .square:nth-child(14)
+{
+  left: 416px;
+  top: 409px;
+  background-image: linear-gradient(45deg, #1f2b37,#29333f, #27313d,#2d3743,#1d2935,#1c2834);
+}
+.small-box{
+  
+  position: absolute;
+  background: #576d81;
+  opacity: 0.5;
+}
+.small-box.box-1{
+  width: 90px;
+  height: 90px;
+  left: 173px;
+  top: 112px;
+ 
+}
+
+.small-box.box-2{
+    width: 50px;
+    height: 50px;
+    left: 91px;
+    top: 120px;
+}
+
+.small-box.box-3{
+  width: 90px;
+  height: 90px;
+  left: 80px;
+  top: 232px;
+ 
+}
+
+.small-box.box-4{
+  width: 30px;
+  height: 30px;
+  left: 37px;
+  top: 200px;
+ 
+}
+
+.small-box.box-5{
+  width: 30px;
+  height: 30px;
+  left: 242px;
+  top: 326px;
+
+}
+ 
+
+.small-box.box-6{
+  width: 30px;
+  height: 30px;
+  right: -42px;
+  top: 267px;
+}
+.small-box.box-7{
+  width: 30px;
+  height: 30px;
+  right: 35px;
+  top: 331px;
+}
+.small-box.box-8{
+  width: 90px;
+  height: 90px;
+  right: 106px;
+  top: 367px;
+}
+.small-box.box-9{
+  width: 50px;
+  height: 50px;
+  right: 11px;
+  top: 247px;
+
+}
+
+.company-info{
+  padding: 20px;
+  position: relative;
+  
+}
+.company-logo{
+  margin-bottom: 10px;
+
+}
+.company-logo img{
+  width: 20%;
+}
+.company-info h1{
+  font-size: 18px;
+  font-family: leaguespartan;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+}
+.company-info p{
+  font-size: 13px;
+  font-family: caviardrems;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+
+}
+
+
+/* person main info */
+.person-main-info-wrap{
+  width: 100%;
+}
+.person-main-info{
+  padding: 40px;
+}
+.person-main-info h2{
+  font-size: 28px;
+  font-family: 'Fira Sans', sans-serif;
+  text-transform: uppercase;
+  color: #1C2834;
+}
+.person-main-info h2 span:nth-child(1){
+  font-weight: 700;
+}
+.person-main-info h2 span:nth-child(2)
+{
+  font-weight: 300;
+}
+.person-main-info p{
+  font-size: 18px;
+  color: #656D75;
+  font-family: 'Fira Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 8.5px;
+}
+.person-contact-info-wrap{
+  width: 100%;
+  word-break: break-all;
+}
+.person-contact-info{
+  padding: 40px;
+}
+.wrap{
+  display: flex;
+  /* justify-content: center; */
+  margin-bottom: 20px;
+}
+.icon{
+  width: 15%;
+  position: relative;
+}
+.icon img{
+  width: 22px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.person-detail{
+  width: 85%;
+}
+
+.person-detail a{
+  display: block;
+  color: #1C2834;
+  font-size: 14px;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 600;
+}
