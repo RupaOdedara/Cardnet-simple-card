@@ -116,13 +116,14 @@ hr {
 .curvveline-wrap{
   width: 40%;
   margin: 0 33px 0 30px;
-  /* background: radial-gradient(circle at 100% 50%, transparent 20%, #00D4F0 21%,
-  #00D4F0 34%, transparent 35%, transparent),
-  radial-gradient(circle at 0% 50%, transparent 20%, #00D4F0 21%, #00D4F0 34%, transparent 35%, transparent) 0 -50px;
-  background-color: #EEEEEE;
-  background-size: 75px 100px; */
 
 }
+.cls-1{
+  animation: LineMover .5s linear infinite;
+	
+}
+
+
 .circle{
   width: 120px;
   height: 120px;
@@ -130,7 +131,9 @@ hr {
   border-radius: 50%;
   position: absolute;
   left: -50px;
+ 
 }
+
 
  .person-contact-info-wrap{
   width: 100%;
