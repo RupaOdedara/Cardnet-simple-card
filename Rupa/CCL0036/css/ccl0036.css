@@ -25,6 +25,7 @@ img{
 
 body {
   background: #fefefe;
+  
 }
 .main{
   width: 100%;
@@ -82,101 +83,203 @@ body {
 
 .bg-hero{
   position: relative;
-  transform: rotate(-29deg);
-  top: -73px;
-  left: -165px;
+  transform: rotate(-37deg);
+  left: -48px;
+  top: -98px;
+  
 }
-.square{
-  width: 120px;
-  height: 120px;
+
+ .square{
+  width: 70px;
+  height:70px;
   position: absolute;
  
 }
 .company-info-wrap .square:nth-child(1)
 {
  
-  top: 0;
+  top: 100px;
+  left: -128px;
   background-image: linear-gradient(to left, #1f2b37,#29333f, #27313d,#2d3743);
 }
-.company-info-wrap .square:nth-child(2)
+ .company-info-wrap .square:nth-child(2)
 {
-  top: 127px;
+  top: 185px;
+  left: -128px;
   background-image: linear-gradient(to bottom, #1f2b37,#29333f, #27313d,#2d3743,#1d2935,#1c2834);
 }
+
 .company-info-wrap .square:nth-child(3)
 {
-  top: 254px;
+  top: 19px;
+  left: -49px;
   background-image: linear-gradient(45deg, #1f2b37,#29333f, #27313d,#2d3743,#1d2935,#1c2834);
 }
+
 .company-info-wrap .square:nth-child(4)
 {
-  left: 140px;
+  top: 172px;
+  left: -49px;
   background-image: linear-gradient(to top, #1f2b37,#29333f, #27313d,#2d3743,#1d2935,#1c2834);
 }
 
 .company-info-wrap .square:nth-child(5)
 {
-  left: 140px;
-  top: 130px;
+  top: 253px;
+  left: -49px;
   background-image: linear-gradient(45deg, #1f2b37,#29333f, #27313d,#2d3743,#1d2935,#1c2834);
 }
 
 .company-info-wrap .square:nth-child(6)
 {
-  left: 140px;
-  top: 260px;
+  top: -61px;
+  left: -42px;
   background-image: linear-gradient(45deg, #1f2b37,#29333f, #27313d,#2d3743,#1d2935,#1c2834);
 }
+
 .company-info-wrap .square:nth-child(7)
 {
-  left: 140px;
-  top: 388px;
+  top: -61px;
+  left: 22px;
   background-image: linear-gradient(to left, #1f2b37,#29333f, #27313d,#2d3743,#1d2935,#1c2834);
 }
+
 .company-info-wrap .square:nth-child(8)
 {
-  left: 280px;
-  top: 0;
-  background-image: linear-gradient(to top, #1f2b37,#29333f, #27313d,#2d3743,#1d2935,#1c2834);
+  top: 18px;
+  left: 28px;
+  background-image: linear-gradient(to bottom, #1f2b37,#29333f, #27313d,#2d3743);
 }
 
 .company-info-wrap .square:nth-child(9)
 {
-  left: 280px;
-  top: 139px;
-  background-image: linear-gradient(to bottom, #1f2b37,#29333f, #27313d,#2d3743,#1d2935,#1c2834);
+  top: 101px;
+  left: 28px;
+  background-image: linear-gradient(to bottom, #1f2b37,#29333f, #27313d,#2d3743);
 }
-
 .company-info-wrap .square:nth-child(10)
 {
-  left: 280px;
-  top: 270px;
-  background-image: linear-gradient(to right, #1f2b37,#29333f, #27313d,#2d3743,#1d2935,#1c2834);
+  top: 185px;
+  left: 28px;
+  background-image: linear-gradient(to bottom, #1f2b37,#29333f, #27313d,#2d3743);
 }
 .company-info-wrap .square:nth-child(11)
 {
-  left: 280px;
-  top: 403px;
-  background-image: linear-gradient(to bottom, #1f2b37,#29333f, #27313d,#2d3743,#1d2935,#1c2834);
+  top: 262px;
+  left: 28px;
+  background-image: linear-gradient(to bottom, #1f2b37,#29333f, #27313d,#2d3743);
 }
 
 .company-info-wrap .square:nth-child(12)
 {
-  left: 416px;
-  top: 142px;
-  background-image: linear-gradient(90deg, #1f2b37,#29333f, #27313d,#2d3743,#1d2935,#1c2834);
+  top: 19px;
+  left: 106px;
+  background-image: linear-gradient(90deg, #1f2b37,#29333f, #27313d,#2d3743);
 }
+
 .company-info-wrap .square:nth-child(13)
 {
-  left: 416px;
-  top: 275px;
-  background-image: linear-gradient(to bottom, #1f2b37,#29333f, #27313d,#2d3743,#1d2935,#1c2834);
+  top: 26px;
+  left: 187px;
+  background-image: linear-gradient(to bottom, #1f2b37,#29333f, #27313d,#2d3743);
 }
 .company-info-wrap .square:nth-child(14)
 {
-  left: 416px;
-  top: 409px;
-  background-image: linear-gradient(45deg, #1f2b37,#29333f, #27313d,#2d3743,#1d2935,#1c2834);
+  top: 268px;
+  left: 112px;
+  background-image: linear-gradient(45deg, #1f2b37,#29333f, #27313d,#2d3743);
+}
+.company-info-wrap .square:nth-child(14)
+{
+  top: 268px;
+  left: 112px;
+  background-image: linear-gradient(45deg, #1f2b37,#29333f, #27313d,#2d3743);
+}
+.company-info-wrap .square:nth-child(15)
+{
+  top: 341px;
+  left: 30px;
+  background-image: linear-gradient(45deg, #1f2b37,#29333f, #27313d,#2d3743);
+}
+.company-info-wrap .square:nth-child(16)
+{
+  top: 346px;
+  left: 112px;
+  background-image: linear-gradient(45deg, #1f2b37,#29333f, #27313d,#2d3743);
+}
+.company-info-wrap .square:nth-child(17)
+{
+  top: 424px;
+  left: 112px;
+  background-image: linear-gradient(45deg, #1f2b37,#29333f, #27313d,#2d3743);
+}
+.company-info-wrap .square:nth-child(18)
+{
+  top: 269px;
+  left: 192px;
+  background-image: linear-gradient(45deg, #1f2b37,#29333f, #27313d,#2d3743);
+}
+.company-info-wrap .square:nth-child(19)
+{
+  top: 350px;
+  left: 192px;
+  background-image: linear-gradient(45deg, #1f2b37,#29333f, #27313d,#2d3743);
+}
+.company-info-wrap .square:nth-child(20)
+{
+  top: 427px;
+  left: 192px;
+  background-image: linear-gradient(45deg, #1f2b37,#29333f, #27313d,#2d3743);
+}
+.company-info-wrap .square:nth-child(21)
+{
+  top: 105px;
+  left: 266px;
+  background-image: linear-gradient(45deg, #1f2b37,#29333f, #27313d,#2d3743);
+}
+.company-info-wrap .square:nth-child(22)
+{
+  top: 183px;
+  left: 270px;
+  background-image: linear-gradient(45deg, #1f2b37,#29333f, #27313d,#2d3743);
+}
+.company-info-wrap .square:nth-child(23)
+{
+  top: 262px;
+  left: 270px;
+  background-image: linear-gradient(45deg, #1f2b37,#29333f, #27313d,#2d3743);
+}
+.company-info-wrap .square:nth-child(24)
+{
+  top: 341px;
+  left: 270px;
+  background-image: linear-gradient(45deg, #1f2b37,#29333f, #27313d,#2d3743);
+}
+
+.company-info-wrap .square:nth-child(25)
+{
+  top: 418px;
+  left: 270px;
+  background-image: linear-gradient(45deg, #1f2b37,#29333f, #27313d,#2d3743);
+}
+.company-info-wrap .square:nth-child(26)
+{
+  top: 184px;
+  left: 350px;
+  background-image: linear-gradient(45deg, #1f2b37,#29333f, #27313d,#2d3743);
+}
+
+.company-info-wrap .square:nth-child(27)
+{
+  top: 263px;
+  left: 350px;
+  background-image: linear-gradient(45deg, #1f2b37,#29333f, #27313d,#2d3743);
+}
+.company-info-wrap .square:nth-child(28)
+{
+  top: 343px;
+  left: 350px;
+  background-image: linear-gradient(45deg, #1f2b37,#29333f, #27313d,#2d3743);
 }
 .small-box{
   
@@ -187,39 +290,39 @@ body {
 .small-box.box-1{
   width: 90px;
   height: 90px;
-  left: 173px;
+  left: -52px;
   top: 112px;
  
 }
 
 .small-box.box-2{
-    width: 50px;
-    height: 50px;
-    left: 91px;
-    top: 120px;
+  width: 50px;
+  height: 50px;
+  left: 64px;
+  top: 65px;
 }
 
 .small-box.box-3{
   width: 90px;
   height: 90px;
   left: 80px;
-  top: 232px;
+  top: 294px;
  
 }
 
 .small-box.box-4{
   width: 30px;
   height: 30px;
-  left: 37px;
-  top: 200px;
+  left: -3px;
+  top: 227px;
  
 }
 
 .small-box.box-5{
   width: 30px;
   height: 30px;
-  left: 242px;
-  top: 326px;
+  left: 216px;
+  top: 293px;
 
 }
  
@@ -227,20 +330,21 @@ body {
 .small-box.box-6{
   width: 30px;
   height: 30px;
-  right: -42px;
-  top: 267px;
+  right: 193px;
+  top: 359px;
 }
 .small-box.box-7{
   width: 30px;
   height: 30px;
-  right: 35px;
-  top: 331px;
+  right: 251px;
+  top: 420px;
 }
 .small-box.box-8{
   width: 90px;
   height: 90px;
-  right: 106px;
-  top: 367px;
+  right: 99px;
+  top: 169px;
+}
 }
 .small-box.box-9{
   width: 50px;
@@ -251,8 +355,11 @@ body {
 }
 
 .company-info{
-  padding: 20px;
-  position: relative;
+    padding: 20px;
+    position: relative;
+    left: 50%;
+    top: 28%;
+    transform: translate(-50%, -50%);
   
 }
 .company-logo{
