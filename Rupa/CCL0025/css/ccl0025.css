@@ -197,7 +197,48 @@ body {
   left: -70px;
   transform: rotate(68deg);
   top: -85px;
+  animation-name: Mover-1;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	animation-duration: 7s;
  
+}
+
+@keyframes  Mover-1 {
+	0% {
+		-webkit-transform: translateY(0px) translateX(0) rotate(0);
+		transform: translateY(10px) translateX(0) rotate(0);
+	}
+
+	30% {
+		-webkit-transform: translateY(30px) translateX(50px) rotate(15deg);
+		transform: translateY(30px) translateX(50px) rotate(15deg);
+		-webkit-transform-origin: center center;
+		transform-origin: center center;
+	}
+
+	50% {
+		-webkit-transform: translateY(50px) translateX(100px) rotate(20deg);
+		transform: translateY(50px) translateX(10px) rotate(20deg);
+		-webkit-transform-origin: right bottom;
+		transform-origin: right bottom;
+	}
+
+	80% {
+		-webkit-transform: translateY(30px) translateX(50px) rotate(15deg);
+		transform: translateY(30px) translateX(50px) rotate(15deg);
+		-webkit-transform-origin: left top;
+		transform-origin: left top;
+	}
+
+	100% {
+		-webkit-transform: translateY(0px) translateX(0) rotate(0);
+		transform: translateY(10px) translateX(0) rotate(0);
+		-webkit-transform-origin: center center;
+		transform-origin: center center;
+	}
 }
 .shape-2{
   width: 200px;
@@ -209,8 +250,49 @@ body {
   border-radius: 50%;
   transform: rotate(-3deg);
   z-index: 10;
+  animation-name: Mover-2;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	animation-duration: 10s;
 }
 
+
+@keyframes  Mover-2 {
+	0% {
+		-webkit-transform: translateY(0px) translateX(0) rotate(0);
+		transform: translateY(-40px) translateX(0) rotate(0);
+	}
+
+	30% {
+		-webkit-transform: translateY(10px) translateX(2px) rotate(15deg);
+		transform: translateY(20px) translateX(0) rotate(13deg);
+		-webkit-transform-origin: center center;
+		transform-origin: center center;
+	}
+
+	60% {
+		-webkit-transform: translateY(30px) translateX(7px) rotate(20deg);
+		transform: translateY(30px) translateX(0) rotate(-10deg);
+		-webkit-transform-origin: right bottom;
+		transform-origin: right bottom;
+	}
+
+	90% {
+		-webkit-transform: translateY(20px) translateX(3px) rotate(15deg);
+		transform: translateY(10px) translateX(0) rotate(9deg);
+		-webkit-transform-origin: left top;
+		transform-origin: left top;
+	}
+
+	100% {
+		-webkit-transform: translateY(0px) translateX(0) rotate(0);
+		transform: translateY(-40px) translateX(0) rotate(0);
+		-webkit-transform-origin: center center;
+		transform-origin: center center;
+	}
+}
 .shape-3{
   width: 231px;
   height: 276px;
@@ -221,11 +303,20 @@ body {
   transform: rotate(-67deg);
   background: #edc4b7;
   z-index: 9;
+
+  /* animation-name: Mover-1;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	animation-duration: 7s; */
+  
 } 
 .shape-4{
   position: absolute;
   z-index: 10;
   top: -131px;
+  
 }
 
 /* .shape-4{
@@ -271,6 +362,7 @@ body {
     background: #edc4b7;
     z-index: 1;
     transform: rotate(-12deg);
+    
   } 
 
 
@@ -288,20 +380,36 @@ body {
   transform: rotate(45deg);
   position: absolute;
   z-index: 11;
+ 
 }
 .box.shape-6{
   background: #444e65;
   right: 85px;
   top: 40px;
+  animation-name: close-2;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+  animation-duration: 8s;
+ 
 }
 
 .box.shape-7{
   background: #d65f3d;
+  
+  
  
 }
 .red-box{
   right: 30px;
   top: -5px;
+  animation-name: close;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+  animation-duration: 8s;
 }
 
 
@@ -309,30 +417,69 @@ body {
   background: #444e65;
   left: 142px;
   top: 50px;
+  animation-name: close;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+  animation-duration: 8s;
 }
 
 .small-box.shape-9{
   background: #ffffff;
   left: 40px;
   top: 1px;
+  animation-name: close-2;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+  animation-duration: 8s;
 }
 .small-box.shape-10{
   background: #ffffff;
   right: 40px;
+  animation-name: close;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+  animation-duration: 8s;
  
 }
 .red-box-right{
   right: 10px;
   top: 100px;
+  animation-name: close-2;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+  animation-duration: 8s;
+
+
 }
 
 .red-box-left{
   left: 70px;
+  animation-name: Mover-2;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+  animation-duration: 10s;
+  z-index: 1;
   
 }
 .red-box-center{
   left: 50%;
   top: 50px;
+  animation-name: close;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+  animation-duration: 8s;
 }
 
 .dot{
@@ -341,18 +488,19 @@ body {
   position: absolute;
   z-index: 11;
   background: #444e65;
+  border-radius: 50%;
 }
-.dot.shape-1{
+.dot.dot-shape-1{
  
   left: 35px;
   top: 37px;
 }
-.dot.shape-2{
+.dot.dot-shape-2{
  
   left: 35px;
   top: 60px;
 }
-.dot.shape-3{
+.dot.dot-shape-3{
  
   left: 35px;
   top: 80px;
@@ -366,15 +514,74 @@ body {
   height: 32px;
   z-index: 11;
   background: transparent;
+
 }
-.close.shape-1{
+.close.close-shape-1{
   left: 40px;
   top: 14px;
+  
+  animation-name: close;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+  animation-duration: 8s;
 }
-.close.shape-2{
+@keyframes close{
+  0%{
+    -webkit-transform: translateY(2px) translateX(20px) rotate(0);
+		transform: translateY(2px) translateX(20px) rotate(0deg);
+  }
+  30%{
+    -webkit-transform: translateY(20px) translateX(10px) rotate(45deg);
+		transform: translateY(20px) translateX(10px) rotate(45deg);
+  }
+  50%{
+    -webkit-transform: translateY(10px) translateX(7px) rotate(30deg);
+		transform: translateY(10px) translateX(7px) rotate(30deg);
+  }
+  80%{
+    -webkit-transform: translateY(2px) translateX(0) rotate(0);
+		transform: translateY(2px) translateX(0) rotate(0deg);
+  }
+  100%{
+    -webkit-transform: translateY(0px) translateX(0) rotate(0);
+		transform: translateY(4px) translateX(20px) rotate(0deg);
+  }
+}
+.close.close-shape-2{
   left: 165px;
   top: 70px;
+  animation-name: close-2;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+  animation-duration: 8s;
 }
+@keyframes close-2{
+  0%{
+    -webkit-transform: translateY(-2px) translateX(0) rotate(0);
+		transform: translateY(-2px) translateX(-20px) rotate(0deg);
+  }
+  30%{
+    -webkit-transform: translateY(-20px) translateX(-10px) rotate(-45deg);
+		transform: translateY(-20px) translateX(-10px) rotate(-45deg);
+  }
+  50%{
+    -webkit-transform: translateY(-10px) translateX(-7px) rotate(-30deg);
+		transform: translateY(-10px) translateX(-7px) rotate(-30deg);
+  }
+  80%{
+    -webkit-transform:  translateY(2px) translateX(0) rotate(0deg);
+		transform: translateY(2px) translateX(0) rotate(0deg);
+  }
+  100%{
+    -webkit-transform: translateY(4px) translateX(20px) rotate(0deg);
+		transform: translateY(-2px) translateX(-20px) rotate(0deg);
+  }
+}
+
 .close:before, .close:after {
   position: absolute;
   left: 15px;
@@ -402,4 +609,10 @@ body {
   border-width: 10px 37px 20px 0;
   transform: rotate(20deg);
   border-color: transparent #edc4b7 transparent transparent;
+  animation-name: close-2;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+  animation-duration: 8s;
 }
