@@ -295,9 +295,11 @@ body{
   height: 100px;
   border-radius: 153px;
   overflow:hidden;
-  background: repeating-linear-gradient(180deg,#ffffff,#ffffff 1.1%,#10266b 3.1%,#10266b 16.2%);
+  /* background: repeating-linear-gradient(180deg,#ffffff,#ffffff 1.1%,#10266b 3.1%,#10266b 16.2%); */
   left: 50%;
-  transform: translate(-50%,-10%) rotate(-40deg);
+  transform: translate(-50%,-10%) rotate(-4deg);
   bottom: -49px;
   position: absolute;
+  background-image: linear-gradient(135deg, #ffffff 6.52%, #12256a 6.52%, #12256a 50%, #ffffff 50%, #ffffff 56.52%, #12256a 56.52%, #12256a 100%);
+  background-size: 15.53px 15.53px;
 }
