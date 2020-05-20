@@ -47,6 +47,97 @@ body{
 
 /* ribbon */
 
+
+
+.ribbon-wrap{
+  position: relative;
+  width: 100%;
+  top: -20px;
+}
+.ribbon-1
+{
+  width: 287px;
+  height: 70px;
+  background: #e91e36;
+  position: absolute;
+  clip: rect(0px, 351px, 84px, 0px); 
+  transform: skew(-23deg,-11deg);
+  z-index: 3;
+  top: 77px;
+  left: -20px;
+  animation-name:ribbon-1;
+  animation-duration: 7s;  
+  animation-timing-function:linear;
+  animation-iteration-count:1;
+ 
+  
+}
+
+ @keyframes ribbon-1 {
+  0%{clip: rect(0px, 0px, 84px, 0px);}
+  12%{clip: rect(0px, 0px, 84px, 0px);}  
+  14%{clip: rect(0px, 351px, 84px, 0px);}
+  88% {clip: rect(0px, 351px, 84px, 0px);}   
+  90%{ clip: rect(0px, 351px, 84px, 0px);}  
+  100%{ clip: rect(0px, 351px, 84px, 0px);}
+  }
+  
+.ribbon-2{
+ 
+  width: 209px;
+  height: 59px;
+  background: #921a1d;
+  position: absolute;
+   clip: rect(0px, 322px, 94px, 0px); 
+  transform: rotate(-17deg) skew(15deg, -12deg);
+  top: 120px;
+  left: 36px;
+  z-index: 2;
+  animation-name: ribbon-2;
+  animation-duration: 7s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+ 
+ 
+}
+
+
+@keyframes ribbon-2 {
+  0%{clip: rect(0px, 322px, 94px, 321px);}
+  14%{clip: rect(0px, 322px, 94px, 321px);}  
+  16%{ clip: rect(0px, 322px, 94px, 0px);}
+  86%{ clip: rect(0px, 322px, 94px, 0px);}  
+  88% {clip: rect(0px, 322px, 94px, 0px);}
+  100%{clip: rect(0px, 322px, 94px, 0px);}
+  }
+
+.ribbon-3{
+  width: 352px;
+  height: 70px;
+  position: absolute;
+  background: #e91e36;
+  clip: rect(0px, 400px, 94px, -1px);
+  transform: skew(7deg, -11deg);
+  z-index: 3;
+  top: 143px;
+  left: 36px;
+  animation-name: ribbon-3;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-duration: 7s;
+  
+ 
+}
+
+@keyframes ribbon-3{
+  0%{clip: rect(0px, 0px, 94px, -1px);}
+  16%{clip: rect(0px, 0px, 94px, -1px);}
+  18%{clip: rect(0px, 400px, 94px, -1px);}
+  84%{clip: rect(0px, 400px, 94px, -1px);}
+  86%{clip: rect(0px, 400px, 94px, -1px);}
+  100%{clip: rect(0px, 400px, 94px, -1px);}
+}
+/* 
 .ribbon-wrap{
   width: 100%;
   position: relative;
@@ -61,13 +152,59 @@ body{
 .ribbon-one svg{
   
   position: absolute;
-  left: -20px;
+  left: -62px;
   width: 360px;
   z-index: 100;
  
 }
-          
-           
+.svg-class{
+  animation-name: clip-1;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+  animation-duration: .5s;
+ 
+} 
+@keyframes clip-1{
+  0%{
+    -webkit-transform: translateY(0) translateX(0) rotate(0);
+		transform:  translateX(-100px);
+  }
+  50%{
+    -webkit-transform: translateY(0) translateX(0) rotate(0);
+		transform:  translateX(-50px);
+  }
+  100%{
+    -webkit-transform: translateX(10px);
+		transform:  translateX(0px);
+  }
+}
+
+.svg-class-2{
+  animation-name: clip-2;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+  animation-duration: 1s;
+  animation-delay: .5s;
+
+}
+@keyframes clip-2{
+  0%{
+     -webkit-transform: translateY(0) translateX(0) rotate(0);
+     width: 0;
+    
+}
+  50%{
+    -webkit-transform: translateY(0) translateX(0) rotate(0);
+    width: 100px;
+   
+  }
+  100%{
+    -webkit-transform: translateX(10px);
+    
+    width: 130px;
+  }
+}
+
 
 .ribbon-two{
   position: relative;
@@ -76,32 +213,29 @@ body{
   width: 130px;
   position: absolute;
   z-index: 2;
-  left: 187px;
+  left: 145px;
   top: 25px;
  
   
 }
 
-  
-
 .ribbon-three{
   position: relative;
 }
 .ribbon-three svg{
-  width: 340px;
+  width: 265px;
   position: absolute;
-  /* right: -65px; */
-  top: -4px;
-  left: 187px;
+  top: 22px;
+  left: 149px;
   z-index: 1;
-}
+} */
 .person-main-info-wrap{
   width: 100%;
   
 }
 .person-info{
   text-align: center;
-  margin: 80px 0 20px 0;
+  margin: 130px 0 20px 0;
 }
 .person-info h2{
   color: #1B2533;
@@ -124,32 +258,34 @@ body{
   display: flex;
   flex-direction: row;
   overflow: hidden;
+  padding: 40px 0 40px 0;
 }
 
 .left-side-clip-wrap{
-  width: 20%;
+ 
   position: relative;
 }
 .left-side-clip{
   width: 25px;
-  height: 150px;
+  height: 130px;
   background: #E91E36;
   border-radius: 125px;
   position: absolute;
   left: -10px;
+  top: -36px;
   
 }
 .right-side-clip-wrap{
-  width: 20%;
   position: relative;
 }
 .right-side-clip{
   width: 25px;
-  height: 150px;
+  height: 130px;
   background: #E91E36;
   border-radius: 125px;
   position: absolute;
   right: -10px;
+  top: -36px;
   
 }
 .person-contact-detail{
@@ -164,7 +300,15 @@ body{
 }
 .icon{
   width: 15%;
+  position: relative;
   
+}
+.icon img{
+  width: 20px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
 }
 .person-detail{
   
