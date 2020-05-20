@@ -28,14 +28,17 @@ img{
  
 }
 .bg-hero{
-  /* background: url(/images/flower.png);
-  background-repeat: repeat;
-  background-size: 81px 102px; */
-  background-color:#d0a149;
+  background: url(/images/bg-hero.png);
+   background-size: cover;
+  background-repeat: no-repeat;
+  /* background-repeat: repeat; */
+
+  /* background-size: 81px 102px; */
+  /* background-color:#d0a149;
 background-image: radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%),
 radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%);
 background-size:80px 80px;
-background-position:0 0, 40px 40px;
+background-position:0 0, 40px 40px; */
 }
 
 .company-info-wrap{
