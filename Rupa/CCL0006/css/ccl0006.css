@@ -4,49 +4,50 @@
   font-family: 'Noto Sans', sans-serif;
 }
 
-a{
+a {
   text-decoration: none;
 }
-img{
+
+img {
   max-width: 100%;
 }
 
 body {
   background-color: #fefefe;
 }
-.main{
+
+.main {
   width: 100%;
 }
+
 .main-container {
   max-width: 540px;
   margin: 0 auto;
-  background: linear-gradient(180deg, rgba(14,22,25,1) 0%, rgba(56,57,59,1) 100%);
+  background: linear-gradient(180deg, rgba(14, 22, 25, 1) 0%, rgba(56, 57, 59, 1) 100%);
   overflow: hidden;
 }
 
-
-.top-line-wrap{
+.top-line-wrap {
   width: 100%;
   position: relative;
 }
 
-.top-line{
-
+.top-line {
   position: relative;
   height: 221px;
-  
 }
-.black-bar{
-  
-    width: 600px;
-    position: absolute;
-    height: 200px;
-    left: 81%;
-    transform: translate(-50%, 0) rotate(52deg);
-    background: rgb(14,22,25);
-    background: linear-gradient(180deg, rgba(14,22,25,1) 0%, rgba(56,57,59,1) 100%);
+
+.black-bar {
+  width: 600px;
+  position: absolute;
+  height: 200px;
+  left: 81%;
+  transform: translate(-50%, 0) rotate(52deg);
+  background: rgb(14, 22, 25);
+  background: linear-gradient(180deg, rgba(14, 22, 25, 1) 0%, rgba(56, 57, 59, 1) 100%);
 }
-.white-line{
+
+.white-line {
   width: 60%;
   height: 3px;
   position: absolute;
@@ -55,7 +56,8 @@ body {
   background: white;
   background: linear-gradient(180deg, rgb(244, 247, 245) 0%, rgb(230, 248, 243) 100%);
 }
-.yellow-bar{
+
+.yellow-bar {
   width: 600px;
   height: 70px;
   position: absolute;
@@ -66,25 +68,25 @@ body {
 
 /* company-info */
 
-.company-info-wrap{
+.company-info-wrap {
   width: 100%;
   text-align: center;
 }
-.company-info{
+
+.company-info {
   padding: 30px;
 }
 
-.company-info h1{
+.company-info h1 {
   font-size: 32px;
   text-transform: uppercase;
   color: #FFFFFF;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
-
 }
-.company-info p{
 
+.company-info p {
   font-size: 14px;
   text-transform: uppercase;
   color: #FFFFFF;
@@ -94,26 +96,28 @@ body {
 }
 
 
-
-
 /* person info */
-.person-info-wrap{
+
+.person-info-wrap {
   width: 100%;
 }
-.person-main-info{
+
+.person-main-info {
   padding: 30px;
 }
-.person-main-info h2{
 
+.person-main-info h2 {
   font-size: 32px;
   text-transform: uppercase;
   color: #FBB000;
   font-family: 'Noto Sans', sans-serif;
 }
-.person-main-info span{
+
+.person-main-info span {
   font-weight: 400;
 }
-.person-main-info p{
+
+.person-main-info p {
   font-size: 16px;
   text-transform: capitalize;
   color: #FFFFFF;
@@ -123,15 +127,14 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
-.yellow-fancy-line{
-
+.yellow-fancy-line {
   width: 40px;
   height: 5px;
   background: #FBB000;
   position: relative;
 }
 
-.yellow-fancy-line:after{
+.yellow-fancy-line:after {
   content: "";
   width: 156px;
   height: 2.5px;
@@ -143,45 +146,44 @@ body {
 }
 
 
-
 /* person contact info */
 
-
-.person-contact-info-wrap{
+.person-contact-info-wrap {
   width: 100%;
 }
-.person-contact-info{
- 
+
+.person-contact-info {
   padding: 20px;
-  
 }
 
-.wrap{
+.wrap {
   display: flex;
   flex-direction: row;
   width: 100%;
   margin-bottom: 10px;
 }
-.icon{
+
+.icon {
   width: 15%;
   position: relative;
- 
 }
-.icon img{
+
+.icon img {
   position: absolute;
   left: 50%;
   top: 50%;
   width: 23px;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
-.person-detail{
+
+.person-detail {
   width: 85%;
 }
-.person-detail a{
+
+.person-detail a {
   display: block;
   color: #FFFFFF;
   font-family: 'Noto Sans', sans-serif;
   font-weight: 400;
   font-size: 17px;
-
 }
