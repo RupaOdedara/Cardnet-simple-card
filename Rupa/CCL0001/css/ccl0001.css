@@ -37,12 +37,16 @@ body{
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 2px;
+ 
 }
 .company-detail p{
   color: #FFFFFF;
   font-size: 11px;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
+  letter-spacing: 1px;
 }
 
 /* ribbon */
@@ -69,6 +73,7 @@ body{
   animation-duration: 7s;  
   animation-timing-function:linear;
   animation-iteration-count:1;
+  box-shadow: 0px 15px 10px -15px #111;
  
   
 }
@@ -124,7 +129,9 @@ body{
   animation-timing-function: linear;
   animation-iteration-count: 1;
   animation-duration: 7s;
-  
+  /* box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   */
+   box-shadow: 0px 15px 10px -15px #111;
  
 }
 
@@ -147,7 +154,7 @@ body{
 .person-info h2{
   color: #1B2533;
   font-family: 'Raleway', sans-serif;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 16px;
   margin-bottom: 7px;
 
@@ -158,6 +165,7 @@ body{
   font-weight: 300;
   font-size: 14px;
   letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .person-contact-detail-wrap{
@@ -185,6 +193,7 @@ body{
   animation-iteration-count: 1;
   animation-duration: 1s;
   animation-delay: .5s;
+ 
 }
 
 @keyframes  clipanimation{
@@ -206,6 +215,7 @@ body{
   position: absolute;
   right: -10px;
   top: -36px;
+ 
   animation-name: clipanimation;
   animation-timing-function: linear;
   animation-iteration-count: 1;
