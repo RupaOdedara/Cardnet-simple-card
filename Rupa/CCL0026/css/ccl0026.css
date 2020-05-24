@@ -1,65 +1,76 @@
 /* font-family: 'Roboto', sans-serif; */
-*{
+
+* {
   margin: 0;
   padding: 0;
 }
-a{
+
+a {
   text-decoration: none;
 }
-img{
+
+img {
   max-width: 100%;
 }
-body{
+
+body {
   font-size: 14px;
   width: 100%;
 }
-.main{
+
+.main {
   width: 100%;
 }
-.main-container{
+
+.main-container {
   max-width: 540px;
   margin: 0 auto;
   background: #434142;
   text-align: center;
 }
-.company-profile-wrap{
+
+.company-profile-wrap {
   width: 100%;
 }
-.company-profile{
+
+.company-profile {
   width: 100%;
-  
 }
-.company-profile img{
+
+.company-profile img {
   width: 70%;
   border: 10px solid #f49536;
   border-radius: 50%;
 }
 
-.company-wrap{
+.company-wrap {
   padding: 50px 0 40px 0;
 }
-.company-detail{
+
+.company-detail {
   margin-top: 30px;
 }
-.company-detail h1{
 
+.company-detail h1 {
   color: #f39536;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 34px;
   margin-bottom: 3px;
 }
-.company-detail p{
 
+.company-detail p {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   color: #ffffff;
 }
-.company-address{
+
+.company-address {
   font-size: 26px;
   margin-bottom: 10px;
 }
-.person-detail a{
+
+.person-detail a {
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -67,37 +78,37 @@ body{
   display: block;
   margin-bottom: 10px;
 }
-.fansy-line{
+
+.fansy-line {
   width: 45%;
   margin: 50px auto 0 auto;
-  border-top: 3px  dashed rgb(244, 149, 54); 
+  border-top: 3px dashed rgb(244, 149, 54);
 }
 
-.company-social-wrap{
+.company-social-wrap {
   width: 100%;
   padding-top: 40px;
- 
   display: flex;
   flex-direction: row;
   overflow: hidden;
-
 }
-.left-side-box-wrap{
+
+.left-side-box-wrap {
   width: 20%;
   position: relative;
 }
-.domain-name{
+
+.domain-name {
   width: 60%;
   padding-bottom: 20px;
- 
- 
 }
-.right-side-box-wrap{
+
+.right-side-box-wrap {
   width: 20%;
   position: relative;
- 
 }
-.right-side-box{
+
+.right-side-box {
   width: 100px;
   background-image: linear-gradient(to bottom, transparent 26%, #434142 0%), linear-gradient(to right, #f49536 35%, #434142 0%);
   background-size: 50px 19px, 15px 11px;
@@ -105,10 +116,9 @@ body{
   transform: rotate(45deg);
   height: 100px;
   right: -42px;
- 
-  
 }
-.left-side-box{
+
+.left-side-box {
   width: 100px;
   background-image: linear-gradient(to bottom, transparent 26%, #434142 0%), linear-gradient(to right, #f49536 35%, #434142 0%);
   background-size: 50px 19px, 15px 11px;
@@ -116,22 +126,22 @@ body{
   transform: rotate(45deg);
   height: 100px;
   left: -42px;
-  
-  
 }
 
-.social-links img{
+.social-links img {
   padding: 7px 0 7px 0;
 }
-.icon-link{
-    background: #ffffff;
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    display: inline-block;
-    margin-right: 2px;
+
+.icon-link {
+  background: #ffffff;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 2px;
 }
-.social-links p{
+
+.social-links p {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   color: #ffffff;

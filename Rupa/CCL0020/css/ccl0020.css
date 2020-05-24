@@ -1,25 +1,16 @@
 /* font-family: 'Noto Sans', sans-serif;
 font-family: 'Open Sans', sans-serif; */
-/* description noto sans semibold. */
-/* sloag noto regular */
-/* company logo bold noto */
-/* span regular */
-/* postion: noto regular
-person name: open sans bold
-bold */
-
-
 
 * {
   margin: 0;
   padding: 0;
-  
 }
 
-a{
+a {
   text-decoration: none;
 }
-img{
+
+img {
   max-width: 100%;
 }
 
@@ -27,40 +18,48 @@ body {
   background-color: #fefefe;
 }
 
-.main{
+.main {
   width: 100%;
 }
+
 .main-container {
   max-width: 540px;
   margin: 0 auto;
   box-shadow: 20px 20px 63px grey;
   overflow: hidden;
 }
+
+
 /* comapny info */
-.company-info-wrap{
+
+.company-info-wrap {
   width: 100%;
   text-align: left;
 }
-.company-info{
+
+.company-info {
   padding: 150px 20px 50px 20px;
   position: relative;
   z-index: 10;
 }
-.company-logo img{
-  width: 20%;
 
+.company-logo img {
+  width: 20%;
 }
-.company-info h1{
+
+.company-info h1 {
   font-size: 28px;
   color: #221f1f;
   font-family: 'Noto Sans', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
-.company-info h1 span{
+
+.company-info h1 span {
   font-weight: 400;
 }
-.company-info p{
+
+.company-info p {
   font-size: 12px;
   color: #a8a9ac;
   font-family: 'Noto Sans', sans-serif;
@@ -68,31 +67,33 @@ body {
   letter-spacing: 9px;
   text-transform: uppercase;
 }
+
+
 /* person info */
 
-
-.person-main-info-wrap{
+.person-main-info-wrap {
   width: 100%;
- 
 }
-.person-main-info{
+
+.person-main-info {
   padding: 20px;
   position: relative;
   z-index: 10;
 }
-.person-main-info h2{
+
+.person-main-info h2 {
   font-size: 28px;
   color: #221f1f;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
-  text-transform: uppercase; 
+  text-transform: uppercase;
 }
-.person-main-info span{
+
+.person-main-info span {
   font-weight: 700;
 }
 
-.person-main-info p{
- 
+.person-main-info p {
   font-family: 'Noto Sans', sans-serif;
   color: #41aee3;
   font-size: 22px;
@@ -100,53 +101,55 @@ body {
 }
 
 
-
-
 /* contact info */
-.person-contact-info-wrap{
+
+.person-contact-info-wrap {
   width: 100%;
-  
- 
 }
 
-.person-contact-info{
+.person-contact-info {
   padding: 30px 20px 200px 20px;
   position: relative;
   z-index: 10;
 }
 
-.wrap{
+.wrap {
   display: flex;
   margin-bottom: 15px;
 }
-.icon{
+
+.icon {
   width: 30px;
   height: 30px;
   background: #27a9e1;
   border-radius: 50%;
   position: relative;
 }
-.wrap:nth-child(even) .icon{
+
+.wrap:nth-child(even) .icon {
   background-color: #424143;
 }
-.icon img{
+
+.icon img {
   width: 18px;
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
-.person-detail{
+
+.person-detail {
   width: 56%;
   word-break: break-all;
   position: relative;
 }
-.person-detail a{
+
+.person-detail a {
   display: block;
   position: absolute;
   left: 15px;
   top: 50%;
-  transform: translate(0,-50%);
+  transform: translate(0, -50%);
   font-size: 12px;
   color: #939598;
   font-family: 'Noto Sans', sans-serif;
@@ -154,65 +157,74 @@ body {
   text-transform: uppercase;
 }
 
-.shape-wrap{
+.shape-wrap {
   position: relative;
   width: 100%;
   left: 100px;
-  top:100px;
- 
-  
+  top: 100px;
 }
-.shape-1{
+
+.shape-1 {
   position: relative;
 }
-.shape-1 svg{
+
+.shape-1 svg {
   position: absolute;
   bottom: 0;
   right: 0;
-   
 }
-.shape-1 svg:nth-child(2){
+
+.shape-1 svg:nth-child(2) {
   position: absolute;
   bottom: 538px;
   right: 0;
 }
-.shape-2{
+
+.shape-2 {
   position: relative;
 }
-.shape-2 svg{
+
+.shape-2 svg {
   position: absolute;
   bottom: -20px;
   right: 0px;
 }
-.shape-3{
+
+.shape-3 {
   position: relative;
 }
-.shape-3 svg{
+
+.shape-3 svg {
   bottom: 450px;
   right: 0;
   position: absolute;
 }
-.shape-4{
+
+.shape-4 {
   position: relative;
 }
-.shape-4 svg{
+
+.shape-4 svg {
   position: absolute;
   bottom: 1000px;
   right: 0;
 }
-.shape-5{
+
+.shape-5 {
   position: relative;
 }
-.shape-5 svg{
+
+.shape-5 svg {
   position: absolute;
   bottom: 0;
   right: 216px;
 }
-.shape-6{
-  position: relative;
 
+.shape-6 {
+  position: relative;
 }
-.shape-6 svg{
+
+.shape-6 svg {
   position: absolute;
   bottom: -27px;
   /* right: 0; */
@@ -233,6 +245,8 @@ body {
  
   
 } */
+
+
 /* 
 .shape-2{
   position: absolute;
@@ -266,12 +280,16 @@ body {
 .shape-5 svg{
   width: 200px;
 } */
+
+
 /* .shape-6{
   position: absolute;
   bottom: -15px;
   right: -48px; 
   top: 400px;
 } */
+
+
 /* .shape-6 svg{
   width: 800px;
   height: 400px;
@@ -287,6 +305,7 @@ body {
   width: 300px;
   height: 595px;
 } */
+
 
 /* .cls-3{
   animation: anim1 4s infinite linear;
@@ -349,31 +368,18 @@ body {
 .cls-4{
   animation: anim3 3s infinite linear;
   /* animation-delay: 2s; */
+
+
+/* } */
+
+@keyframes anim3 {
+  to {
+    d: path(" M657.747,0C562.04,81.106,470.077,197.874,458.313,350.2c-8.728,112.981,25.077,203.713,49.609,299.219-17.118-92.055-40.584-181.455-24.117-288.008C504.5,227.5,585.958,126.29,675,53.772V0H657.747Zm0,0C562.04,81.106,470.077,197.874,458.313,350.2c-8.728,112.981,25.077,203.713,49.609,299.219-17.118-92.055-40.584-181.455-24.117-288.008C504.5,227.5,585.958,126.29,675,53.772V0H657.747Z");
+  }
+  50% {
+    d: path(" M657.747,0C562.04,81.106,450.077,197.874,462.313,350.2c-8.728,200.981,25.077,203.713,49.609,299.219-17.118-92.055-40.584-181.455-24.117-288.008C504.5,227.5,585.958,126.29,675,53.772V0H657.747Zm0,0C562.04,81.106,470.077,197.874,458.313,350.2c-8.728,112.981,25.077,203.713,49.609,299.219-17.118-92.055-40.584-181.455-24.117-288.008C504.5,227.5,490.958,126.29,675,53.772V0H657.747Z");
+  }
+  100% {
+    d: path(" M657.747,0C562.04,81.106,470.077,197.874,458.313,350.2c-8.728,112.981,25.077,203.713,49.609,299.219-17.118-92.055-40.584-181.455-24.117-288.008C504.5,227.5,585.958,126.29,675,53.772V0H657.747Zm0,0C562.04,81.106,470.077,197.874,458.313,350.2c-8.728,112.981,25.077,203.713,49.609,299.219-17.118-92.055-40.584-181.455-24.117-288.008C504.5,227.5,585.958,126.29,675,53.772V0H657.747Z");
+  }
 }
-
-@keyframes anim3{
-  to{
-    d:path(" M657.747,0C562.04,81.106,470.077,197.874,458.313,350.2c-8.728,112.981,25.077,203.713,49.609,299.219-17.118-92.055-40.584-181.455-24.117-288.008C504.5,227.5,585.958,126.29,675,53.772V0H657.747Zm0,0C562.04,81.106,470.077,197.874,458.313,350.2c-8.728,112.981,25.077,203.713,49.609,299.219-17.118-92.055-40.584-181.455-24.117-288.008C504.5,227.5,585.958,126.29,675,53.772V0H657.747Z");
-   
-  }
-
-  50%{
-    d:path(" M657.747,0C562.04,81.106,450.077,197.874,462.313,350.2c-8.728,200.981,25.077,203.713,49.609,299.219-17.118-92.055-40.584-181.455-24.117-288.008C504.5,227.5,585.958,126.29,675,53.772V0H657.747Zm0,0C562.04,81.106,470.077,197.874,458.313,350.2c-8.728,112.981,25.077,203.713,49.609,299.219-17.118-92.055-40.584-181.455-24.117-288.008C504.5,227.5,490.958,126.29,675,53.772V0H657.747Z");
-    
-  }
-  100%{
-    d:path(" M657.747,0C562.04,81.106,470.077,197.874,458.313,350.2c-8.728,112.981,25.077,203.713,49.609,299.219-17.118-92.055-40.584-181.455-24.117-288.008C504.5,227.5,585.958,126.29,675,53.772V0H657.747Zm0,0C562.04,81.106,470.077,197.874,458.313,350.2c-8.728,112.981,25.077,203.713,49.609,299.219-17.118-92.055-40.584-181.455-24.117-288.008C504.5,227.5,585.958,126.29,675,53.772V0H657.747Z");
-    
-  }
-} */
-
-
-
-
-
-
-
-
-
-
-

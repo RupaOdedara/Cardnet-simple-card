@@ -1,44 +1,52 @@
 /* font-family: 'Noto Sans', sans-serif; */
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
-body{
+
+body {
   font-size: 14px;
 }
-a{
+
+a {
   text-decoration: none;
 }
-img{
+
+img {
   max-width: 100%;
 }
+
+
 /* main */
-.main{
+
+.main {
   width: 100%;
 }
-.main-container{
+
+.main-container {
   max-width: 540px;
   margin: 0 auto;
   background: #271D26;
 }
-.company-profile-wrap{
+
+.company-profile-wrap {
   width: 100%;
   text-align: center;
   position: relative;
   height: 230px;
   overflow: hidden;
-  
+}
 
+.company-logo {
+  padding-top: 30px;
 }
-.company-logo{
- padding-top: 30px;
-}
-.company-logo img{
+
+.company-logo img {
   width: 20%;
 }
-.outer-triangle{
-  
+
+.outer-triangle {
   width: 280px;
   height: 300px;
   border-bottom: 20px solid #F2A531;
@@ -46,33 +54,31 @@ img{
   position: absolute;
   left: 50%;
   top: -9%;
-  transform: translate(-50%,-50%) rotate(45deg);
-  
- 
+  transform: translate(-50%, -50%) rotate(45deg);
 }
-.inner-triangle{
-  
+
+.inner-triangle {
   border-bottom: 20px solid #A752A7;
   border-right: 20px solid #EF5E5B;
   width: 225px;
   height: 250px;
   margin: 15px auto;
-
 }
 
 
 /* contact */
-.person-main-info-wrap{
+
+.person-main-info-wrap {
   width: 100%;
 }
-.person-main-info{
+
+.person-main-info {
   width: 100%;
   margin-bottom: 40px;
   margin-top: 10px;
-
 }
-.person-main-info h1{
 
+.person-main-info h1 {
   color: #FFFFFF;
   text-align: center;
   font-size: 50px;
@@ -80,7 +86,8 @@ img{
   font-weight: 400;
   line-height: 44px;
 }
-.person-main-info p{
+
+.person-main-info p {
   color: #6D6E70;
   text-align: center;
   font-family: 'Noto Sans', sans-serif;
@@ -88,17 +95,17 @@ img{
   font-size: 20px;
 }
 
-
-.person-contact-detail{
+.person-contact-detail {
   width: 100%;
   overflow: hidden;
 }
-.wrap{
+
+.wrap {
   margin-bottom: 15px;
   display: flex;
 }
-.icon{
-  
+
+.icon {
   width: 20%;
   height: 50px;
   border-bottom-right-radius: 7px;
@@ -108,96 +115,98 @@ img{
   position: relative;
 }
 
-.left{
+.left {
   position: relative;
   left: -10px;
-
 }
-.right{
+
+.right {
   position: relative;
   right: -10px;
 }
 
-.phone span:nth-child(1){
+.phone span:nth-child(1) {
   background: #A752A7;
 }
 
-.phone a{
+.phone a {
   color: #A752A7;
-  
-
 }
-.right span:nth-child(1){
+
+.right span:nth-child(1) {
   order: 2;
 }
 
-.left span:nth-child(2)
-{
+.left span:nth-child(2) {
   left: 40px;
 }
-.right span:nth-child(2)
-{
+
+.right span:nth-child(2) {
   right: 0;
 }
-.website span:nth-child(1){
-  background: #63D8C5 ;
+
+.website span:nth-child(1) {
+  background: #63D8C5;
 }
-.website a{
+
+.website a {
   color: #63D8C5;
   right: 0;
 }
-.mail span:nth-child(1)
-{
+
+.mail span:nth-child(1) {
   background: #EF5E5B;
 }
-.mail a{
+
+.mail a {
   color: #EF5E5B;
-  
 }
 
-.address span:nth-child(1){
+.address span:nth-child(1) {
   background: #F2A531;
-  
 }
 
-.address a{
+.address a {
   color: #F2A531;
   right: 0;
 }
-.facebbok span:nth-child(1){
+
+.facebbok span:nth-child(1) {
   background: #A752A7;
 }
-.facebbok a{
+
+.facebbok a {
   color: #A752A7;
-  
 }
-.twitter span:nth-child(1){
+
+.twitter span:nth-child(1) {
   background: #63D8C5;
- 
 }
-.twitter a{
+
+.twitter a {
   color: #63D8C5;
   right: 0;
 }
-.icon img{
+
+.icon img {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 
-.person-detail{
+.person-detail {
   width: 80%;
   position: relative;
   word-break: break-all;
-
 }
-.person-contact-detail a{
+
+.person-contact-detail a {
   display: block;
   font-size: 18px;
   font-family: 'Noto Sans', sans-serif;
   top: 50%;
   font-weight: 600;
-  transform: translate(-10%,-50%);
+  transform: translate(-10%, -50%);
   position: absolute;
 }
