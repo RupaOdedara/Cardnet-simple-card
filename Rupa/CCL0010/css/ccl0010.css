@@ -23,7 +23,8 @@ body {
 .main-container {
   max-width: 540px;
   margin: 0 auto;
-  background-image: linear-gradient(to left #fefefe, #ffffff, #fdfdfd, #fcfcfc, #f8f8f8);
+  background: rgb(248,248,248);
+background: linear-gradient(153deg, rgba(248,248,248,1) 0%, rgba(253,253,253,1) 54%, rgba(232,232,232,1) 100%);
 }
 
 .company-info-wrap {
@@ -95,7 +96,7 @@ body {
   position: absolute;
   top: -25px;
   left: 50px;
-  height: 220px;
+  height: 223px;
 }
 
 .gray-side-bar:after {
@@ -105,7 +106,7 @@ body {
   border-style: solid;
   border-width: 0 34px 24px 0;
   border-color: transparent #979797 transparent transparent;
-  top: 195px;
+  top: 199px;
   left: -33px;
   z-index: -1;
   position: absolute;
