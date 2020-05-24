@@ -1,21 +1,27 @@
-@font-face{
+@font-face {
   font-family: titletext;
   src: url(/fonts/big_noodle_titling.ttf);
 }
+
+
 /* general details... */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   background: rgb(211, 211, 211);
   font-family: 'Lexend Giga', sans-serif;
   width: 100%;
 }
-.main{
+
+.main {
   width: 100%;
 }
+
 .main-container {
   max-width: 540px;
   margin: 0 auto;
@@ -25,47 +31,50 @@ body {
   overflow: hidden;
 }
 
+
 /* company details section*/
-.company-details{
+
+.company-details {
   text-align: center;
   padding: 200px 40px 90px 40px;
   position: relative;
   z-index: 10;
 }
-.company-details h1{
+
+.company-details h1 {
   font-size: 32px;
   font-weight: 600;
   text-transform: uppercase;
   font-family: titletext;
   letter-spacing: 5px;
 }
-.company-details p{
-  font-size: 11px; 
+
+.company-details p {
+  font-size: 11px;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 3px;
-
 }
-.company-details img{
+
+.company-details img {
   width: 15%;
 }
 
-/* fancy-line-wrap */
-  
 
-.fancy-line-wrap{
+/* fancy-line-wrap */
+
+.fancy-line-wrap {
   position: relative;
   width: 100%;
 }
 
-.silverline{
+.silverline {
   background: rgb(228, 225, 225);
-  height: 2px; 
- 
+  height: 2px;
 }
 
-.silverline.silverline-1{
+.silverline.silverline-1 {
   width: 700px;
   top: 165px;
   transform: rotate(-35deg);
@@ -73,21 +82,23 @@ body {
   position: absolute;
 }
 
-.silverline.silverline-2{
+.silverline.silverline-2 {
   width: 700px;
   right: -261px;
   top: 85px;
   transform: rotate(72deg);
   position: absolute;
- }
-.silverline.silverline-3{
+}
+
+.silverline.silverline-3 {
   width: 321px;
   right: -2px;
   top: 4px;
   transform: rotate(57deg);
   position: absolute;
 }
-.silverline.silverline-4{
+
+.silverline.silverline-4 {
   width: 890px;
   top: 504px;
   transform: rotate(-71deg);
@@ -95,45 +106,47 @@ body {
   position: absolute;
 }
 
-
-.goldenline{
- 
+.goldenline {
   height: 6px;
-  background-image: linear-gradient(to left,#f0c96a,#f0c96a,#b17a27,#b17a27); 
+  background-image: linear-gradient(to left, #f0c96a, #f0c96a, #b17a27, #b17a27);
 }
-.goldenline.goldenline-1{
+
+.goldenline.goldenline-1 {
   position: absolute;
   width: 700px;
   top: 126px;
   transform: rotate(65deg);
   right: -223px;
-
 }
-.goldenline.goldenline-2{
+
+.goldenline.goldenline-2 {
   top: 165px;
   width: 700px;
   transform: rotate(-42deg);
   right: -26px;
   position: absolute;
 }
-.goldenline.goldenline-3{
+
+.goldenline.goldenline-3 {
   width: 400px;
   right: 53px;
   top: 58px;
   transform: rotate(39deg);
   position: absolute;
-} 
-.goldenline.goldenline-4{
+}
+
+.goldenline.goldenline-4 {
   position: absolute;
-    width: 780px;
-    top: 515px;
-    transform: rotate(102deg);
-    right: -25px;
+  width: 780px;
+  top: 515px;
+  transform: rotate(102deg);
+  right: -25px;
 }
 
 
 /* person contact list section */
-.person-main-info-wrap{
+
+.person-main-info-wrap {
   width: 100%;
   text-align: right;
   position: relative;
@@ -141,7 +154,7 @@ body {
   z-index: 10;
 }
 
-.person-info{
+.person-info {
   padding: 40px;
 }
 
@@ -152,6 +165,7 @@ body {
   font-family: titletext;
   letter-spacing: 5px;
 }
+
 .person-info p {
   font-size: 17px;
   font-family: 'Montserrat', sans-serif;
@@ -159,49 +173,55 @@ body {
   font-weight: 700;
 }
 
-.person-contact-info{
+.person-contact-info {
   padding: 10px 40px 10px 40px;
 }
-.link{
+
+.link {
   display: flex;
   flex-direction: row;
   width: 100%;
   margin-bottom: 10px;
 }
-.icon{
+
+.icon {
   width: 30px;
   height: 30px;
   position: relative;
   border: 1px solid #000;
   border-radius: 50%;
 }
-.icon img{
+
+.icon img {
   width: 16px;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
-.person-detail{
+
+.person-detail {
   width: 90%;
   position: relative;
 }
-.person-detail a{
+
+.person-detail a {
   display: block;
   position: absolute;
   top: 50%;
   right: 5%;
   font-size: 14px;
-  transform: translate(0,-50%);
+  transform: translate(0, -50%);
   color: #000;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 700; 
+  font-weight: 700;
 }
 
-.phone .person-detail a:nth-child(1){
+.phone .person-detail a:nth-child(1) {
   top: 30%;
 }
-.phone .person-detail a:nth-child(2){
+
+.phone .person-detail a:nth-child(2) {
   top: 70%;
 }
