@@ -1,57 +1,57 @@
-
-*{
+* {
   margin: 0;
   padding: 0;
 }
-body{
+
+body {
   font-size: 14px;
   font-family: 'Noto Sans', sans-serif;
-  
 }
-a{
+
+a {
   text-decoration: none;
 }
-img{
+
+img {
   max-width: 100%;
 }
+
+
 /* main */
-.main{
+
+.main {
   width: 100%;
 }
 
-.main-container{
+.main-container {
   max-width: 540px;
   margin: 0 auto;
   background: #1c1c1c;
   box-shadow: inset 0 0 71px #000000;
 }
 
-
-
-.company-info-wrap{
+.company-info-wrap {
   width: 100%;
   padding: 80px 0 40px 0;
   position: relative;
   overflow: hidden;
-  
 }
 
-.company-info{
-
+.company-info {
   width: 100%;
   text-align: center;
-  padding: 40px 0 30px 0; 
-  background: #1f1f1f;  
+  padding: 40px 0 30px 0;
+  background: #1f1f1f;
   box-shadow: inset 0px 80px 83px -15px #000000;
   border-bottom: 4px solid;
   border-top: 4px solid;
-  border-image-source: linear-gradient(to left,#030d0f,#052f3f,#0d7fdf,#0ab8fd,#19fdfc,#13fbfb,#0bfffd, #15fdfd,#0bfffd, #0d7fdf, #186486,#0ab8fd,#052f3f,#030d0f);
+  border-image-source: linear-gradient(to left, #030d0f, #052f3f, #0d7fdf, #0ab8fd, #19fdfc, #13fbfb, #0bfffd, #15fdfd, #0bfffd, #0d7fdf, #186486, #0ab8fd, #052f3f, #030d0f);
   border-image-slice: 1;
   position: relative;
-
-  
+  animation: shine 1s infinite linear;
 }
-.shadow{
+
+.shadow {
   width: 100%;
   height: 274px;
   background: #0ab8fd;
@@ -61,14 +61,15 @@ img{
   border-radius: 42%;
   box-shadow: 0px 1px 19px 10px #0fd7e7, 0 0 0px #fff, 0px 1px 7px 7px #186486, 0px 1px 7px 6px #0c78d0;
 }
-.company-info h1{
+
+.company-info h1 {
   font-size: 25px;
   text-transform: uppercase;
   color: #FFFFFF;
   font-weight: 700;
 }
 
-.company-info p{
+.company-info p {
   font-size: 12px;
   color: #166272;
   font-weight: 700;
@@ -77,89 +78,100 @@ img{
   letter-spacing: 2px;
 }
 
-.company-info span{
+.company-info span {
   color: #FFFFFF;
   font-size: 14px;
   font-weight: 700;
- 
 }
+
 
 /* contact info */
 
-.person-info-wrap{
+.person-info-wrap {
   width: 100%;
 }
-.person-main-info{
+
+.person-main-info {
   padding: 10px 30px 10px 30px;
 }
-.person-main-info h2{
+
+.person-main-info h2 {
   font-size: 30px;
   text-transform: uppercase;
   font-weight: bold;
   background: linear-gradient(to left, #0894b8 71%, #1f7687 83%, #153f4f 100%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-.person-main-info span{
+
+.person-main-info span {
   font-weight: 100;
 }
-.person-main-info p{
+
+.person-main-info p {
   text-transform: capitalize;
   color: #E6E6E6;
   font-size: 14px;
   font-weight: 600;
 }
-.person-contact-info-wrap{
+
+.person-contact-info-wrap {
   width: 100%;
 }
-.person-contact-info{
+
+.person-contact-info {
   padding: 10px 50px 10px 50px;
   box-shadow: inset 0px -15px 10px -15px #000000;
- 
 }
 
-.wrap{
+.wrap {
   display: flex;
   flex-direction: row;
   width: 100%;
   margin-bottom: 5px;
 }
-.icon{
+
+.icon {
   width: 30px;
   height: 30px;
   position: relative;
   border: 3px solid #00809a;
   border-radius: 50%;
 }
-.icon img{
+
+.icon img {
   width: 16px;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
-.person-detail{
+
+.person-detail {
   width: 90%;
   position: relative;
 }
-.person-detail a{
+
+.person-detail a {
   display: block;
   position: absolute;
   top: 50%;
   left: 3%;
-  transform: translate(0,-50%);
+  transform: translate(0, -50%);
   color: #E6E6E6;
   font-weight: 700;
   font-size: 12px;
-  font-family: 'Noto Sans', sans-serif; 
+  font-family: 'Noto Sans', sans-serif;
 }
 
-.phone .person-detail a:nth-child(1){
+.phone .person-detail a:nth-child(1) {
   top: 30%;
 }
-.phone .person-detail a:nth-child(2){
+
+.phone .person-detail a:nth-child(2) {
   top: 70%;
 }
-.website span img{
+
+.website span img {
   left: 55%;
 }

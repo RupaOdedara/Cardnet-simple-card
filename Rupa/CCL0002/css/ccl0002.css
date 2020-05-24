@@ -1,38 +1,44 @@
-
-@font-face{
+@font-face {
   font-family: mainheadingtext;
   src: url(/fonts/big_noodle_titling.ttf);
 }
-*{
+
+* {
   margin: 0;
   padding: 0;
 }
-body{
+
+body {
   font-size: 14px;
   font-family: 'Montserrat', sans-serif;
 }
-a{
+
+a {
   text-decoration: none;
 }
-img{
+
+img {
   max-width: 100%;
 }
+
+
 /* main */
-.main{
+
+.main {
   width: 100%;
 }
-.main-container{
+
+.main-container {
   max-width: 540px;
   margin: 0 auto;
-  background-image: linear-gradient(#d0a149,#dfb458,#f0c96a,#e3b85a,#e3b85a,#e3b85a,#e3b85a,#cfa048,#c29039,#bc8832,#b07926,#b17a27);
- 
+  background-image: linear-gradient(#d0a149, #dfb458, #f0c96a, #e3b85a, #e3b85a, #e3b85a, #e3b85a, #cfa048, #c29039, #bc8832, #b07926, #b17a27);
 }
-.bg-hero{
+
+.bg-hero {
   background: url(/images/bg-hero.png);
-   background-size: cover;
+  background-size: cover;
   background-repeat: no-repeat;
   /* background-repeat: repeat; */
-
   /* background-size: 81px 102px; */
   /* background-color:#d0a149;
 background-image: radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%),
@@ -41,14 +47,16 @@ background-size:80px 80px;
 background-position:0 0, 40px 40px; */
 }
 
-.company-info-wrap{
+.company-info-wrap {
   width: 100%;
   text-align: center;
 }
-.company-info{
+
+.company-info {
   padding: 20px 20px 40px 20px;
 }
-.company-info h1{
+
+.company-info h1 {
   color: #1C1C1C;
   font-weight: 700;
   font-family: mainheadingtext;
@@ -56,7 +64,7 @@ background-position:0 0, 40px 40px; */
   font-size: 32px;
 }
 
-.company-info p{
+.company-info p {
   color: #1C1C1C;
   font-weight: 700;
   letter-spacing: 2px;
@@ -65,15 +73,14 @@ background-position:0 0, 40px 40px; */
   text-transform: uppercase;
 }
 
-
-.line-design-wrap{
+.line-design-wrap {
   width: 100%;
   position: relative;
   height: 315px;
   overflow: hidden;
 }
 
-.top-black-line-1{
+.top-black-line-1 {
   width: 250px;
   background: #1C1C1C;
   height: 4px;
@@ -81,9 +88,9 @@ background-position:0 0, 40px 40px; */
   bottom: 230px;
   right: 13px;
   transform: rotate(125deg);
- 
 }
-.top-black-line-2{
+
+.top-black-line-2 {
   width: 250px;
   background: #1C1C1C;
   height: 4px;
@@ -92,7 +99,8 @@ background-position:0 0, 40px 40px; */
   right: -59px;
   transform: rotate(100deg);
 }
-.top-black-line-3{
+
+.top-black-line-3 {
   width: 250px;
   background: #1C1C1C;
   height: 4px;
@@ -102,7 +110,7 @@ background-position:0 0, 40px 40px; */
   bottom: 320px;
 }
 
-.top-black-line-4{
+.top-black-line-4 {
   width: 127px;
   background: #1C1C1C;
   height: 4px;
@@ -112,8 +120,7 @@ background-position:0 0, 40px 40px; */
   bottom: 205px;
 }
 
-
-.center-black-line{
+.center-black-line {
   width: 650px;
   background: #1C1C1C;
   height: 4px;
@@ -123,7 +130,7 @@ background-position:0 0, 40px 40px; */
   right: -65px;
 }
 
-.bottom-black-line-1{
+.bottom-black-line-1 {
   width: 290px;
   background: #1C1C1C;
   height: 4px;
@@ -132,10 +139,8 @@ background-position:0 0, 40px 40px; */
   top: 217px;
   right: 256px;
 }
-  
 
-
-.bottom-black-line-2{
+.bottom-black-line-2 {
   width: 540px;
   background: #1C1C1C;
   height: 4px;
@@ -143,27 +148,29 @@ background-position:0 0, 40px 40px; */
   top: 259px;
   transform: rotate(-13deg);
   right: 124px;
-  
 }
+
+
 /* person-main-info */
 
-.person-main-info-wrap{
+.person-main-info-wrap {
   width: 100%;
-
 }
-.person-main-info{
+
+.person-main-info {
   padding: 20px;
 }
-.person-main-info h2{
+
+.person-main-info h2 {
   font-size: 35px;
   text-transform: uppercase;
   color: #1C1C1C;
   font-weight: 700;
   font-family: mainheadingtext;
   letter-spacing: 4px;
-
 }
-.person-main-info p{
+
+.person-main-info p {
   font-size: 18px;
   text-transform: capitalize;
   color: #1C1C1C;
@@ -171,7 +178,7 @@ background-position:0 0, 40px 40px; */
   font-weight: 700;
 }
 
-hr{
+hr {
   background-color: #1C1C1C;
   outline: 0;
   border: 0;
@@ -180,46 +187,45 @@ hr{
   margin-top: 10px;
 }
 
-/* contact info */
-.person-contact-info-wrap{
-  width: 100%;
 
+/* contact info */
+
+.person-contact-info-wrap {
+  width: 100%;
 }
-.person-contact-info{
- 
+
+.person-contact-info {
   padding: 20px 0 20px 0;
 }
 
-
-
-.wrap{
-   display: flex;
-   flex-direction: row;
-   width: 100%;
-   margin-bottom: 10px;
+.wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 10px;
 }
-.icon{
+
+.icon {
   width: 15%;
   position: relative;
 }
-.person-detail{
+
+.person-detail {
   width: 85%;
-  
 }
-.person-detail a{
+
+.person-detail a {
   display: block;
   color: #1C1C1C;
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   letter-spacing: 1.5px;
- 
 }
-.icon img{
+
+.icon img {
   width: 18px;
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
-
-
